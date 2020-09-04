@@ -1,0 +1,92 @@
+{
+	"items": [
+		{
+			"name": "Dual Bike - DB 10",
+			"id": "DB-10",
+			"description": "Funtion- Cycling & Elliptical, Display- Time, Distance, Speed, Calorie, Maximum user weight: 90 Kgs, Floor Space: 20” x 43”",
+			"price": "13990/-",
+			"image": "/img/products/exerciseBikes/db10/db10_01.png",
+			"category": "exercise-bikes"
+		},
+		{
+			"name": "Dual Bike - DB 20",
+			"id": "DB-20",
+			"description": "Funtion- Cycling & Elliptical, Display- Time, Distance, Speed, Calorie & Pulse, Maximum user weight: 90 Kgs, Floor Space: 20” x 43”",
+			"price": "16490/-",
+			"image": "/img/products/exerciseBikes/db20/db20_01.png",
+			"category": "exercise-bikes"
+		},
+		{
+			"name": "Dual Bike - DB 22",
+			"id": "DB-22",
+			"description": "Funtion- Cycling , Elliptical, Twister, Push up Bar, Dumbbells & Band, Display- Time, Distance, Speed, Calorie & Pulse, Maximum user weight: 100 Kgs",
+			"price": "18490/-",
+			"image": "/img/products/exerciseBikes/db22/db22_01.png",
+			"category": "exercise-bikes"
+		},
+		{
+			"name": "Dual Bike - DC 30",
+			"id": "DC-30",
+			"description": "Funtion- Cycling & Elliptical, Display- Time, Distance, Speed, Calorie & Pulse,  Steel Flywheel, Maximum user weight: 90 Kgs, Floor space: 22” x 34”",
+			"price": "19490/-",
+			"image": "/img/products/exerciseBikes/dc30/dc30_01.png",
+			"category": "exercise-bikes"
+		},
+		{
+			"name": "Magnetic Bike - RB 21",
+			"id": "RB-21",
+			"description": "8 Level  Manual Resistance Control, Display- Time, Distance, Speed, Calorie & Pulse, 5 Kgs Fly Wheel, Maximum user weight: 100 Kgs, Floor space: 26” x 54”",
+			"price": "21,990/-",
+			"image": "/img/products/exerciseBikes/rb21/rb21_01.png",
+			"category": "exercise-bikes"
+		},
+		{
+			"name": "Magnetic Bike - RB 41",
+			"id": "RB-41",
+			"description": "8 Level  Manual Resistance Control, Display- Time, Distance, Speed, Calorie & Pulse,  6 Kgs Fly Wheel, Maximum user weight: 130 Kgs",
+			"price": "34,990/-",
+			"image": "/img/products/exerciseBikes/rb41/rb41_01.png",
+			"category": "exercise-bikes"
+		},
+		{
+			"name": "Spin Bike - SB 41",
+			"id": "SB-41",
+			"description": "Brush Brake  Resistance Control, Display- Time, Distance, Speed, Calorie, 20 Kgs. Flywheel, Maximum user weight: 150 Kgs",
+			"price": "41990/-",
+			"image": "/img/products/exerciseBikes/sb41/sb41_01.png",
+			"category": "exercise-bikes"
+		},
+		{
+			"name": "Dual Bike - UB 10",
+			"id": "UB-10",
+			"description": "Funtion- Cycling & Hand movement, Display- Time, Distance, Speed, Calorie, Maximum user weight: 90 Kgs, Floor Space: 21” x 40”",
+			"price": "10,990/-",
+			"image": "/img/products/exerciseBikes/ub10/ub10_01.png",
+			"category": "exercise-bikes"
+		},
+		{
+			"name": "Magnetic Bike - UB 11",
+			"id": "UB-11",
+			"description": "8 Level Manual Resistance Control, Display- Time, Distance, Speed, Calorie & Pulse, 3.5 Kgs Fly Wheel, Maximum user weight: 90 Kgs",
+			"price": "13490/-",
+			"image": "/img/products/exerciseBikes/ub11/ub11_01.png",
+			"category": "exercise-bikes"
+		},
+		{
+			"name": "Magnetic Bike - UB 21",
+			"id": "UB-21",
+			"description": "8 Level Manual Resistance Control, Display- Time, Distance, Speed, Calorie & Pulse, 3 Pcs Crank Design, 5 Kgs Fly Wheel, Maximum user weight: 100 Kgs",
+			"price": "19890/-",
+			"image": "/img/products/exerciseBikes/ub21/ub21_01.png",
+			"category": "exercise-bikes"
+		},
+		{
+			"name": "Magnetic Bike - UB 41",
+			"id": "UB-41",
+			"description": "16 Level  Auto Resistance Control, Display- Time, Distance, Speed, Calorie & Pulse, 3 Pcs Crank Design, 6 Kgs Fly Wheel, Maximum user weight: 130 Kgs",
+			"price": "32990/-",
+			"image": "/img/products/exerciseBikes/ub41/ub41_01.png",
+			"category": "exercise-bikes"
+		}
+	]
+}

@@ -1,0 +1,164 @@
+{
+	"items": [
+		{
+			"name": "TMN 10",
+			"id": "TMN-10",
+			"description": "Manual Treadmill, 4 Functions: Treadmill, Twister, Push up Bar & Stepper, 3 Level  Manual  Incline, Maximum User Weight: 80 kgs, Floor Space: 19”x55”, 47” x14” Extra wide running Area",
+			"price": "22,290/-",
+			"image": "/img/products/treadmil/tmn10/tmn10_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 20e",
+			"id": "TM-20e",
+			"description": "Economy Treadmill, 12 Km/hr Maximum Speed, Maximum User Weight: 90 kgs, 47” x17” Extra wide running Area",
+			"price": "26,990/-",
+			"image": "/img/products/treadmil/tm20e/tm20e_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 21e",
+			"id": "TM-21e",
+			"description": "Economy Treadmill, 12 Km/hr Maximum Speed, Maximum User Weight: 90 kgs, 47” x17” Extra wide running Area",
+			"price": "31,990/-",
+			"image": "/img/products/treadmil/tm21e/tm21e_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 30e",
+			"id": "TM-30e",
+			"description": "Economy Treadmill, 3 Level Manual Incline, 13 Km/hr Maximum Speed, Maximum User Weight: 110 kgs, Floor Space: 28” x64”, 48” x16” Extra wide running Area, Body Fat Analyser",
+			"price": "49,990/-",
+			"image": "/img/products/treadmil/tm30e/tm30e_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 32e",
+			"id": "TM-32e",
+			"description": "Economy Treadmill, 14 Km/hr Maximum Speed, Maximum User Weight: 110 kgs, 49” x17” Extra wide running Area",
+			"price": "45,990/-",
+			"image": "/img/products/treadmil/tm32e/tm32e_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 22",
+			"id": "TM-22",
+			"description": "Basic Treadmill, 12 Km/hr Maximum Speed, Maximum User Weight: 100 kgs, 47” x16” Extra wide running Area",
+			"price": "42,390/-",
+			"image": "/img/products/treadmil/tm22/tm22_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 23",
+			"id": "TM-23",
+			"description": "Basic Treadmill, 12 Level Auto  Incline, 12 Km/hr Maximum Speed, Maximum User Weight: 100 kgs, Floor Space: 27”x61”, 47” x16” Extra wide running Area",
+			"price": "48,990/-",
+			"image": "/img/products/treadmil/tm23/tm23_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 29",
+			"id": "TM-29",
+			"description": "Basic Treadmill, 3 Level  Manual  Incline, 12 Km/hr Maximum Speed, Maximum User Weight: 110 kgs, 48” x16” Extra wide running Area",
+			"price": "45,490/-",
+			"image": "/img/products/treadmil/tm29/tm29_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 34",
+			"id": "TM-34",
+			"description": "Basic Treadmill, 3 Level Manual Incline, 14 Km/hr Maximum Speed, Maximum User Weight: 110 kgs, 49” x17” Extra wide running Area",
+			"price": "53,990/-",
+			"image": "/img/products/treadmil/tm34/tm34_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 41",
+			"id": "TM-41",
+			"description": "Basic Treadmill, 12 % Motorized  Incline, 16 Km/hr Maximum Speed, Maximum User Weight: 110 kgs, 49” x18” Extra wide running Area",
+			"price": "59,990/-",
+			"image": "/img/products/treadmil/tm41/tm41_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 32",
+			"id": "TM-32",
+			"description": "Premium Treadmill, 3 Level Manual Incline, 13 Km/hr Maximum Speed, Maximum User Weight: 110 kg, 49” x17” Extra wide running Area",
+			"price": "58,990/-",
+			"image": "/img/products/treadmil/tm32/tm32_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 33",
+			"id": "TM-33",
+			"description": "Premium Treadmill, 15% Motorized  Incline, 13 Km/hr Maximum Speed, 10 Pre-set Programs, Maximum User Weight: 110 kgs, 49” x17” Extra wide running Area",
+			"price": "63,890/-",
+			"image": "/img/products/treadmil/tm33/tm33_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 39",
+			"id": "TM-39",
+			"description": "Premium Treadmill, 12 Level Auto Incline, 14 Km/hr Maximum Speed, Maximum User Weight: 120 kgs, 49” x18” Extra wide running Area",
+			"price": "61,990/-",
+			"image": "/img/products/treadmil/tm39/tm39_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 40",
+			"id": "TM-40",
+			"description": "Premium Treadmill, 15% Motorized  Incline, 16 Km/hr Maximum Speed, Maximum User Weight: 120 kgs, 49” x18” Extra wide running Area",
+			"price": "66,990/-",
+			"image": "/img/products/treadmil/tm40/tm40_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 51",
+			"id": "TM-51",
+			"description": "Super Premium Treadmill, 15 % Motorized  Incline, 16 Km/hr Maximum Speed, 10 Pre set programs, Maximum User Weight: 125 kgs, 54” x19” Extra wide running Area",
+			"price": "84,990/-",
+			"image": "/img/products/treadmil/tm51/tm51_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 59",
+			"id": "TM-59",
+			"description": "Super Premium Treadmill, 18 Km/hr Maximum Speed, Maximum User Weight: 130 kgs, 55” x20” Extra wide running Area, 15 Level Auto Incline",
+			"price": "88,990/-",
+			"image": "/img/products/treadmil/tm59/tm59_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 60",
+			"id": "TM-60",
+			"description": "Super Premium Treadmill, 15 % Motorized  Incline, 18 Km/hr Maximum Speed, Maximum User Weight: 150 kgs, 59” x20” Extra wide running Area",
+			"price": "96,990/-",
+			"image": "/img/products/treadmil/tm60/tm60_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TM 90",
+			"id": "TM-90",
+			"description": "Super Premium Treadmill, 22 Km/hr Maximum Speed, Maximum User Weight: 150 kgs, 60” x21” Extra wide running Area, 20 Level Auto Incline",
+			"price": "99,990/-",
+			"image": "/img/products/treadmil/tm90/tm90_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TMA 21",
+			"id": "TMA-21",
+			"description": "Semi Commercial Treadmill, 16 Km/hr Maximum Speed, Maximum User Weight: 130 kgs, 51” x19” Extra wide running Area, 15 Level Auto Incline",
+			"price": "97,990/-",
+			"image": "/img/products/treadmil/tma21/tma21_01.png",
+			"category": "treadmills"
+		},
+		{
+			"name": "TMA 41",
+			"id": "TMA-41",
+			"description": "Semi Commercial Treadmill, 18 Km/hr Maximum Speed, Maximum User Weight: 150 kgs, 57” x20” Extra wide running Area, 20 Level Auto Incline",
+			"price": "1,19,990/-",
+			"image": "/img/products/treadmil/tma41/tma41_01.png",
+			"category": "treadmills"
+		}
+	]
+}

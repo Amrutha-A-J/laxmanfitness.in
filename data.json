@@ -1,0 +1,220 @@
+{
+    "categories": {
+        "treadmill": {
+            "intro": "Treadmills provide a straightforward and efficient aerobic workout. For many, treadmills are a good choice to begin a new exercise routine because most individuals can take up walking regardless of fitness level and back condition. As strength and endurance develops, the treadmill can be used for jogging and/or for interval training.",
+            "items": [
+                {
+                    "name": "TMN 10",
+                    "image": "",
+                    "description": [
+                        "Incline: 3 Level Manual Adjustments",
+                        "Display: Time, Speed, Distance, Calories and Pulse",
+                        "Running Belt: L-47”xW-14”"
+                    ]
+                },
+                {
+                    "name": "TM 20",
+                    "image": "",
+                    "description": [
+                        "Motor Power: 1.25 HP",
+                        "Max Speed: 14 km/hr.",
+                        "Incline : 3 Level Manual",
+                        "Running Belt: L-48”xW-17”"
+                    ]
+                },
+                {
+                    "name": "TM 21",
+                    "image": "",
+                    "description": [
+                        "Motor Power: 1.25 HP",
+                        "Max Speed: 14 km/hr.",
+                        "Incline: 12%",
+                        "Running Belt: L-48”xW-17”"
+                    ]
+                },
+                {
+                    "name": "TM 30",
+                    "image": "",
+                    "description": [
+                        "Motor Power: 1.5 HP",
+                        "Max Speed: 16 km/hr.",
+                        "Incline : 3 Level Manual",
+                        "Running Belt: L-52”xW-18”"
+                    ]
+                },
+                {
+                    "name": "TM 30M",
+                    "image": "",
+                    "description": [
+                        "Motor Power: 1.5 HP",
+                        "Max Speed: 16 km/hr.",
+                        "Incline : 3 Level Manual",
+                        "Running Belt: L-52”xW-18”"
+                    ]
+                },
+                {
+                    "name": "TM 31",
+                    "image": "",
+                    "description": [
+                        "Motor Power: 1.5 HP",
+                        "Max Speed: 16 km/hr.",
+                        "Incline: 12%",
+                        "Running Belt: L-52”xW-18””"
+                    ]
+                },
+                {
+                    "name": "TM 50",
+                    "image": "",
+                    "description": [
+                        "Motor Power: 1.5 HP",
+                        "Max Speed: 16 km/hr.",
+                        "Incline: 12%",
+                        "Running Belt: L-52”xW-18””"
+                    ]
+                },
+                {
+                    "name": "TM 51",
+                    "image": "",
+                    "description": [
+                        "Motor Power : 2.0 HP Cont. duty/4.0 HP Peak DC motor",
+                        "Max Speed : 16 Km/ Hr.",
+                        "Incline : 15% Automatic motorised incline",
+                        "Running Belt : L-54″ X W-19″"
+                    ]
+                },
+                {
+                    "name": "TM 60",
+                    "image": "",
+                    "description": [
+                        "Motor Power : 2.5 HP Cont. duty/5.0 HP Peak DC motor",
+                        "Max Speed : 18 Km/ Hr",
+                        "Incline : 15% Automatic motorised incline",
+                        "Running Belt : L-77″ X W-34″"
+                    ]
+                },
+                {
+                    "name": "TM 90",
+                    "image": "",
+                    "description": [
+                        "Motor Power: 3 HP",
+                        "Max Speed: 22 km/hr.",
+                        "Incline: 15%",
+                        "Running Belt: L-62”xW-22”"
+                    ]
+                }
+            ]
+        },
+        "exercise_bike": {
+            "intro": "An exercise bicycle is usually a special-purpose exercise machine resembling a bicycle without true wheels. The low-impact movement involved in operating an exercise bike does not put much stress on joints and does not involve sporadic motions that some other fitness equipment may require.",
+            "items": [
+                {
+                    "name": "DB 10",
+                    "image": "",
+                    "description": [
+                        "System: Dual Movement – Hand & Legs Exercise Movement",
+                        "Resistance Level: Manual Resistance",
+                        "Flywheel: 4 Kgs",
+                        "Features: Vertical / Horizontal Seat Adjustment"
+                    ]
+                },
+                {
+                    "name": "DB 20",
+                    "image": "",
+                    "description": [
+                        "System: Dual Movement – Hand & Legs Exercise Movement",
+                        "Resistance: Manual Resistance",
+                        "Heart Rate Monitor: Yes",
+                        "Features: Vertical / Horizontal Seat Adjustment"
+                    ]
+                },
+                {
+                    "name": "DC 30",
+                    "image": "",
+                    "description": [
+                        "System: Dual Movement – Hand & Legs Exercise Movement",
+                        "Resistance: Manual Resistance",
+                        "Flywheel: 4.3 Kgs Steel",
+                        "Features: Cycling & Elliptical"
+                    ]
+                },
+                {
+                    "name": "RB 20",
+                    "image": "",
+                    "description": [
+                        "System: Manual Magnetic Resistance",
+                        "Resistance Level : 10 Level",
+                        "Flywheel : 3 Kgs",
+                        "Display : Speed, Distance, Time, Calories and Pulse",
+                        "Heart Rate Monitor : Yes"
+                    ]
+                },
+                {
+                    "name": "UB 20",
+                    "image": "",
+                    "description": [
+                        "System: Manual Magnetic Resistance",
+                        "Resistance Level : 10 Level",
+                        "Flywheel : 3 Kgs",
+                        "Display : Speed, Distance, Time, Calories and Pulse",
+                        "Heart Rate Monitor : Yes"
+                    ]
+                }
+            ]
+        },
+        "elliptical": {
+            "intro": "Elliptical trainers offer a non-impact cardiovascular workout that can vary from light to high intensity based on the speed of the exercise and the resistance preference set by the user.",
+            "items": [
+                {
+                    "name": "EL 10",
+                    "image": "",
+                    "description": [
+                        "System: Magnetic Resistance System",
+                        "Resistance Level: 8 Level",
+                        "Flywheel: 5.5 Kgs",
+                        "Display: Time, Speed, Distance, Calories & Pulse",
+                        "Heart Rate Monitor: Yes"
+                    ]
+                },
+                {
+                    "name": "EL 20",
+                    "image": "",
+                    "description": [
+                        "System:  Magnetic Resistance System",
+                        "Resistance: Level 8 Level",
+                        "Flywheel: 5 Kgs",
+                        "Display: Time, Speed, Distance, Calories & Pulse",
+                        "Heart Rate Monitor: Yes"
+                    ]
+                },
+                {
+                    "name": "EL 40",
+                    "image": "",
+                    "description": [
+                        "System : Programmable Magnetic Resistance",
+                        "Resistance Level : 10 Level",
+                        "Flywheel : 6 Kgs",
+                        "Display : Speed, Distance, Time, Calories and Pulse",
+                        "Heart Rate Monitor : Yes"
+                    ]
+                }
+
+            ]
+        },
+        "multi_gym": {
+            "intro": "Work on your abs, pecs and biceps right from the comfort of your home with the Hercules Multi Gym. Bring the gym to your house.",
+            "items": [
+                {
+                    "name": "SM 108",
+                    "image": "",
+                    "description": [
+                        "Weight Stack : 100 lbs",
+                        "Cable tensile strength : 2000 lbs rating",
+                        "Functions : Tricep extension, Ab crunch, Leg extension, Lat, Bicep curl, Shoulder press, Leg curl",
+                        "Dimensions : L-63″ X W-39″ X H-80″"
+                    ]
+                }
+
+            ]
+        }
+    }
+}

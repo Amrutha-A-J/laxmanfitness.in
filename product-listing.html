@@ -23,7 +23,7 @@ limitations under the License.
   <meta charset="utf-8">
   <title>Commerce</title>
   <link rel="canonical"
-    href="https://laxmanfitness.in/index.html">
+    href="https://laxmanfitness.in/product-listing.html">
   <meta name="viewport"
     content="width=device-width,minimum-scale=1,initial-scale=1">
   <meta name="amp-google-client-id-api"
@@ -93,7 +93,16 @@ limitations under the License.
   <script custom-element="amp-sidebar"
     src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"
     async=""></script>
+  <script custom-element="amp-list"
+    src="https://cdn.ampproject.org/v0/amp-list-0.1.js"
+    async=""></script>
+  <script custom-element="amp-bind"
+    src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"
+    async=""></script>
 
+  <script custom-template="amp-mustache"
+    src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"
+    async=""></script>
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
     rel="stylesheet">
@@ -195,189 +204,143 @@ limitations under the License.
   </amp-sidebar>
   <!-- End Sidebar -->
   <!-- End Navbar -->
-
   <main id="content"
     role="main"
-    class="main commerce-landing">
+    class="main commerce-listing">
+    <amp-state id="products">
+      <script type="application/json">
+        {
+          "category": "all"
+        }
 
-    <section class="commerce-hero-content-wrapper center overflow-hidden">
-      <a href="product-listing.html"
-        class="text-decoration-none block">
-        <amp-img class="commerce-hero-image"
-          src="/img/hercules_fitness_home_banner_desktop_2_2017_12-narrow.jpg"
-          width="750"
-          height="573"
-          layout="responsive"
-          media="(max-width: 52.06rem)"
-          alt="Hero Landing 1"
-          noloading="">
-          <div placeholder=""
-            class="commerce-loader"></div>
-        </amp-img>
-        <amp-img class="commerce-hero-image"
-          src="/img/hercules_fitness_home_banner_desktop_2_2017_12.jpg"
-          width="2560"
-          height="800"
-          layout="responsive"
-          media="(min-width: 52.07rem)"
-          alt="Hero Landing 1"
-          noloading="">
-          <div placeholder=""
-            class="commerce-loader"></div>
-        </amp-img>
-        <div class="commerce-hero-content commerce-hero-content-theme-primary flex justify-center flex-column md-mx-auto md-p0">
-          <div class="commerce-hero-align md-mx-auto">
-            <h2 class="commerce-hero-content-title h4 md-h1 caps md-mb2 md-pl4">LAXMAN FITNESS</h2>
-            <p class="commerce-hero-content-body">Make fitness your destination. Start your own fitness revolution. Reach the peaks of fitnes. </p>
-            <div class="ampstart-btn ampstart-btn-secondary caps md-ml4">shop</div>
-          </div>
-        </div>
-      </a>
-    </section>
-    <section class="commerce-hero-content-wrapper center overflow-hidden">
-      <a href="product-listing.html"
-        class="text-decoration-none block">
-        <amp-img class="commerce-hero-image"
-          src="/img/main_images/TM_main_narrow.jpg"
-          width="750"
-          height="573"
-          layout="responsive"
-          media="(max-width: 52.06rem)"
-          alt="Hero Landing 1"
-          noloading="">
-          <div placeholder=""
-            class="commerce-loader"></div>
-        </amp-img>
-        <amp-img class="commerce-hero-image"
-          src="/img/main_images/TM_main_wide.jpg"
-          width="2560"
-          height="800"
-          layout="responsive"
-          media="(min-width: 52.07rem)"
-          alt="Hero Landing 1"
-          noloading="">
-          <div placeholder=""
-            class="commerce-loader"></div>
-        </amp-img>
-        <div class="commerce-hero-content commerce-hero-content-theme-primary flex justify-center flex-column md-mx-auto md-p0">
-          <div class="commerce-hero-align md-mx-auto">
-            <h2 class="commerce-hero-content-title h4 md-h1 caps md-mb2 md-pl4">TREADMILLS</h2>
-            <p class="commerce-hero-content-body">Treadmills provide a straightforward and efficient aerobic workout. For many, treadmills are a good choice to
-              begin a new exercise routine because most individuals can take up walking regardless of fitness level and back
-              condition. As strength and endurance develops, the treadmill can be used for jogging and/or for interval training.</p>
-            <div class="ampstart-btn ampstart-btn-secondary caps md-ml4">SHOP</div>
-          </div>
-        </div>
-      </a>
-    </section>
-    <section class="commerce-hero-content-wrapper center overflow-hidden">
-      <a href="product-listing.html"
-        class="text-decoration-none block">
-        <amp-img class="commerce-hero-image"
-          src="/img/main_images/Exercise_Bike_Header_narrow.jpg"
-          width="750"
-          height="573"
-          layout="responsive"
-          media="(max-width: 52.06rem)"
-          alt="Hero Landing 1"
-          noloading="">
-          <div placeholder=""
-            class="commerce-loader"></div>
-        </amp-img>
-        <amp-img class="commerce-hero-image"
-          src="/img/main_images/Exercise_Bike_Header_wide.jpg"
-          width="2560"
-          height="800"
-          layout="responsive"
-          media="(min-width: 52.07rem)"
-          alt="Hero Landing 1"
-          noloading="">
-          <div placeholder=""
-            class="commerce-loader"></div>
-        </amp-img>
-        <div class="commerce-hero-content commerce-hero-content-theme-primary flex justify-center flex-column md-mx-auto md-p0">
-          <div class="commerce-hero-align md-mx-auto">
-            <h2 class="commerce-hero-content-title h4 md-h1 caps md-mb2 md-pl4">EXERCISE BIKES</h2>
-            <p class="commerce-hero-content-body">An exercise bicycle is usually a special-purpose exercise machine resembling a bicycle without true wheels. The
-              low-impact movement involved in operating an exercise bike does not put much stress on joints and does not
-              involve sporadic motions that some other fitness equipment may require.
-            </p>
-            <div class="ampstart-btn ampstart-btn-secondary caps md-ml4">SHOP</div>
-          </div>
-        </div>
-      </a>
-    </section>
-    <section class="commerce-hero-content-wrapper center overflow-hidden">
-      <a href="product-listing.html"
-        class="text-decoration-none block">
-        <amp-img class="commerce-hero-image"
-          src="/img/main_images/Elliptical_Header_narrow.jpg"
-          width="750"
-          height="573"
-          layout="responsive"
-          media="(max-width: 52.06rem)"
-          alt="Hero Landing 1"
-          noloading="">
-          <div placeholder=""
-            class="commerce-loader"></div>
-        </amp-img>
-        <amp-img class="commerce-hero-image"
-          src="/img/main_images/Elliptical_Header_wide.jpg"
-          width="2560"
-          height="800"
-          layout="responsive"
-          media="(min-width: 52.07rem)"
-          alt="Hero Landing 1"
-          noloading="">
-          <div placeholder=""
-            class="commerce-loader"></div>
-        </amp-img>
-        <div class="commerce-hero-content commerce-hero-content-theme-primary flex justify-center flex-column md-mx-auto md-p0">
-          <div class="commerce-hero-align md-mx-auto">
-            <h2 class="commerce-hero-content-title h4 md-h1 caps md-mb2 md-pl4">ELLIPTICALS</h2>
-            <p class="commerce-hero-content-body">Elliptical trainers offer a non-impact cardiovascular workout that can vary from light to high intensity based
-              on the speed of the exercise and the resistance preference set by the user.</p>
-            <div class="ampstart-btn ampstart-btn-secondary caps md-ml4">SHOP</div>
-          </div>
-        </div>
-      </a>
-    </section>
-    <section class="commerce-hero-content-wrapper center overflow-hidden">
-      <a href="product-listing.html"
-        class="text-decoration-none block">
-        <amp-img class="commerce-hero-image"
-          src="/img/main_images/MultiGym_header_narrow.jpg"
-          width="750"
-          height="573"
-          layout="responsive"
-          media="(max-width: 52.06rem)"
-          alt="Hero Landing 1"
-          noloading="">
-          <div placeholder=""
-            class="commerce-loader"></div>
-        </amp-img>
-        <amp-img class="commerce-hero-image"
-          src="/img/main_images/MultiGym_header_wide.jpg"
-          width="2560"
-          height="800"
-          layout="responsive"
-          media="(min-width: 52.07rem)"
-          alt="Hero Landing 1"
-          noloading="">
-          <div placeholder=""
-            class="commerce-loader"></div>
-        </amp-img>
-        <div class="commerce-hero-content commerce-hero-content-theme-primary flex justify-center flex-column md-mx-auto md-p0">
-          <div class="commerce-hero-align md-mx-auto">
-            <h2 class="commerce-hero-content-title h4 md-h1 caps md-mb2 md-pl4">MULTI-GYMS</h2>
-            <p class="commerce-hero-content-body">Work on your abs, pecs and biceps right from the comfort of your home with the Hercules Multi Gym. Bring the
-              gym to your house.
+      </script>
+    </amp-state>
+    <amp-img class="commerce-listing-banner xs-hide sm-hide"
+      src="/img/category-landing-wide.jpg"
+      width="2560"
+      height="400"
+      layout="responsive"
+      alt="Product listing"
+      noloading="">
+      <div placeholder=""
+        class="commerce-loader"></div>
+    </amp-img>
+    <section class="commerce-listing-content mx-auto flex flex-wrap pb4">
+      <div class="col-3 xs-hide sm-hide flex flex-column">
+        <div class="commerce-side-panel pt4 pr4 self-center">
+          <h2 class="h5 mb2">Categories</h2>
 
-            </p>
-            <div class="ampstart-btn ampstart-btn-secondary caps md-ml4">SHOP</div>
+          <!-- Start Radio -->
+          <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 "
+            on="change: AMP.setState({products: {category: &#39;all&#39;}})">
+            <input type="radio"
+              value=""
+              name="category"
+              id="all"
+              class="relative"
+              checked="">
+            <label for="all"
+              class=""
+              aria-hidden="true">All</label>
+          </div>
+          <!-- End Radio -->
+
+
+          <!-- Start Radio -->
+          <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 "
+            on="change: AMP.setState({products: {category: &#39;treadmills&#39;}})">
+            <input type="radio"
+              value=""
+              name="category"
+              id="treadmills"
+              class="relative">
+            <label for="treadmills"
+              class=""
+              aria-hidden="true">Treadmills</label>
+          </div>
+          <!-- End Radio -->
+          <!-- Start Radio -->
+          <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 "
+            on="change: AMP.setState({products: {category: &#39;exerciseBikes&#39;}})">
+            <input type="radio"
+              value=""
+              name="category"
+              id="exerciseBikes"
+              class="relative">
+            <label for="exerciseBikes"
+              class=""
+              aria-hidden="true">Exercise Bikes</label>
+          </div>
+          <!-- End Radio -->
+          <!-- Start Radio -->
+          <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 "
+            on="change: AMP.setState({products: {category: &#39;ellipticals&#39;}})">
+            <input type="radio"
+              value=""
+              name="category"
+              id="ellipticals"
+              class="relative">
+            <label for="ellipticals"
+              class=""
+              aria-hidden="true">Ellipticals</label>
+          </div>
+          <!-- End Radio -->
+          <!-- Start Radio -->
+          <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 "
+            on="change: AMP.setState({products: {category: &#39;multiGym&#39;}})">
+            <input type="radio"
+              value=""
+              name="category"
+              id="multiGym"
+              class="relative">
+            <label for="multiGym"
+              class=""
+              aria-hidden="true">Multi-Gym</label>
+          </div>
+          <!-- End Radio -->
+        </div>
+      </div>
+
+      <div class="col-12 md-col-7 pt2 pb3 md-px4 md-pt1 md-pb7">
+        <div class="md-commerce-header relative md-flex flex-wrap items-center md-mx0 md-mb2">
+          <h1 class="h3 mb2 md-mt2 md-mb2 md-ml0 flex-auto px2">Products</h1>
+          <div class="commerce-listing-filters pt2 pb2 mb3 md-mb0">
+            <div class="commerce-select-wrapper inline-block md-mr1 pl2 md-hide lg-hide">
+              <label for="categories"
+                class="bold caps h6 md-h7">Show:</label>
+              <select name="categories"
+                id="categories"
+                class="commerce-select h6 md-h7"
+                on="change: AMP.setState({products: {category: event.value}})">
+      <option value="all">All</option>
+      <option value="treadmills">treadmills</option>
+      <option value="exerciseBikes">exercise bikes</option>
+      <option value="ellipticals">ellipticals</option>
+      <option value="multiGym">multi-gym</option>
+  </select>
+            </div>
           </div>
         </div>
-      </a>
+        <amp-list class="mx1 md-mxn1"
+          [src]="'api/' + products.category + '.json'"
+          src="/api/all.json"
+          height="1000"
+          width="300"
+          layout="responsive">
+          <template type="amp-mustache">
+          <a href="products/{{category}}/{{id}}.html" target="_self" class="commerce-listing-product text-decoration-none inline-block col-6 md-col-4 lg-col-3 px1 mb2 md-mb4 relative">
+            <div class="flex flex-column justify-between">
+              <div>
+                <amp-img class="commerce-listing-product-image mb2" src="{{image}}" width="340" height="340" layout="responsive" alt="{{ name }}" noloading=""><div placeholder="" class="commerce-loader"></div></amp-img>
+                <h2 class="commerce-listing-product-name h6">{{ name }}</h2>
+                {{ description }}
+              </div>
+              <div class="h6 mt1">&#8377;{{ price }}</div>
+            </div>
+          </a>
+        </template>
+        </amp-list>
+      </div>
     </section>
   </main>
   <footer class="commerce-footer center">
@@ -391,12 +354,11 @@ limitations under the License.
             </li>
           </ul>
           <hr class="md-hide lg-hide col-12 mx0">
-          <br>
         </li>
         <li class="pt3 md-pt0 md-px4 col-12 md-col-3 lg-col-2">
           <h2 class="commerce-footer-header h7 pb2">Contact Us</h2>
           <ul class="list-reset pb3 md-mx0">
-           <li>
+            <li>
               <a class="text-decoration-none"
                 href="tel:+919388322422">93883224220</a>
             </li>
@@ -422,6 +384,10 @@ limitations under the License.
               Opp.Valiyalukkal Temple,
               P.O.Kanimangalam,
               Thrissur-680027, Kerala, India
+            </li>
+            <li>
+              <a class="text-decoration-none"
+            href="google.com/maps/place/Laxman+Fitness/@10.491018,76.207795,15z/data=!4m5!3m4!1s0x0:0xbb480ceb9c11e5fc!8m2!3d10.4919041!4d76.212945?hl=en-GB">Google Map</a>
             </li>
             <li>
               <a class="text-decoration-none"

@@ -1,0 +1,44 @@
+{
+	"items": [
+		{
+			"name": "EL 10",
+			"id": "EL-10",
+			"description": "4 Functions: Treadmill, Twister, Push up Bar & Stepper, 3 Level  Manual  Incline, Max weight: 80 kgs, Dimentions: 19”x55",
+			"price": "22,290/-",
+			"image": "/img/products/elliptical-trainers/el10/el10_01.png",
+			"category": "ellipticals"
+		},
+		{
+			"name": "EL 15",
+			"id": "EL-15",
+			"description": "Dual Function- Cycling & Elliptical, Display- Time, Distance, Speed, Calorie & Pulse, 6 Kgs Fly Wheel, Maximum user weight: 110 Kgs",
+			"price": "27,490/-",
+			"image": "/img/products/elliptical-trainers/el15/el15_01.png",
+			"category": "ellipticals"
+		},
+		{
+			"name": "EL 30",
+			"id": "EL-30",
+			"description": "8 Level Manual Resistance Control, Display- Time, Distance, Speed, Calorie & Pulse, 4 Kgs Fly Wheel, Maximum user weight: 120 Kgs",
+			"price": "27,990/-",
+			"image": "/img/products/elliptical-trainers/el30/el30_01.png",
+			"category": "ellipticals"
+		},
+		{
+			"name": "EL 39",
+			"id": "EL-39",
+			"description": "8 Level Manual Resistance Control, Display- Time, Distance, Speed, Calorie & Pulse, 6 Kgs Fly Wheel, Maximum user weight: 130 Kgs",
+			"price": "31,490/-",
+			"image": "/img/products/elliptical-trainers/el39/el39_01.png",
+			"category": "ellipticals"
+		},
+		{
+			"name": "EL 41",
+			"id": "EL-41",
+			"description": "16 Level AutoResistance Control, Display- Time, Distance, Speed, Calorie & Pulse, Max user weight: 130 Kgs",
+			"price": "39,990/-",
+			"image": "/img/products/elliptical-trainers/el41/el41_01.png",
+			"category": "ellipticals"
+		}
+	]
+}

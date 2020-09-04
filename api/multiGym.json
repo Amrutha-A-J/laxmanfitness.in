@@ -1,0 +1,20 @@
+{
+	"items": [
+		{
+			"name": "SM 109",
+			"id": "SM-109",
+			"description": "100 Lbs weight Stack, 2000 Lbs Tensile strength Cables, Maximum user weight: 120 Kgs, Floor Space: 41” x 73” x 80”",
+			"price": "36990/-",
+			"image": "/img/products/multiGym/sm109/sm109_01.png",
+			"category": "multi-gym"
+		},
+		{
+			"name": "SM 110",
+			"id": "SM-110",
+			"description": "150 Lbs weight Stack, 2000 Lbs Tensile strength Cables, Maximum user weight: 150 Kgs,Floor Space: 41” x 73” x 80”",
+			"price": "44990/-",
+			"image": "/img/products/multiGym/sm110/sm110_01.png",
+			"category": "multi-gym"
+		}
+	]
+}
