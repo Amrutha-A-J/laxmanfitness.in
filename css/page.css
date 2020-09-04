@@ -3720,3 +3720,7 @@ amp-selector [option][selected] {
 .site-logo-side {
   margin: 40px 0 50px 0;
 }
+
+.product-benefit-list {
+  padding-left: 15px;
+}
