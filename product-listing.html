@@ -206,7 +206,7 @@ limitations under the License.
   <!-- End Navbar -->
   <main id="content"
     role="main"
-    class="main commerce-listing">
+    class="main laxfit-listing">
     <amp-state id="products">
       <script type="application/json">
         {
@@ -215,7 +215,7 @@ limitations under the License.
 
       </script>
     </amp-state>
-    <amp-img class="commerce-listing-banner xs-hide sm-hide"
+    <amp-img class="laxfit-listing-banner xs-hide sm-hide"
       src="/img/category-landing-wide.jpg"
       width="2560"
       height="400"
@@ -223,11 +223,11 @@ limitations under the License.
       alt="Product listing"
       noloading="">
       <div placeholder=""
-        class="commerce-loader"></div>
+        class="laxfit-loader"></div>
     </amp-img>
-    <section class="commerce-listing-content mx-auto flex flex-wrap pb4">
+    <section class="laxfit-listing-content mx-auto flex flex-wrap pb4">
       <div class="col-3 xs-hide sm-hide flex flex-column">
-        <div class="commerce-side-panel pt4 pr4 self-center">
+        <div class="laxfit-side-panel pt4 pr4 self-center">
           <h2 class="h5 mb2">Categories</h2>
 
           <!-- Start Radio -->
@@ -302,15 +302,15 @@ limitations under the License.
       </div>
 
       <div class="col-12 md-col-7 pt2 pb3 md-px4 md-pt1 md-pb7">
-        <div class="md-commerce-header relative md-flex flex-wrap items-center md-mx0 md-mb2">
+        <div class="md-laxfit-header relative md-flex flex-wrap items-center md-mx0 md-mb2">
           <h1 class="h3 mb2 md-mt2 md-mb2 md-ml0 flex-auto px2">Products</h1>
-          <div class="commerce-listing-filters pt2 pb2 mb3 md-mb0">
-            <div class="commerce-select-wrapper inline-block md-mr1 pl2 md-hide lg-hide">
+          <div class="laxfit-listing-filters pt2 pb2 mb3 md-mb0">
+            <div class="laxfit-select-wrapper inline-block md-mr1 pl2 md-hide lg-hide">
               <label for="categories"
                 class="bold caps h6 md-h7">Show:</label>
               <select name="categories"
                 id="categories"
-                class="commerce-select h6 md-h7"
+                class="laxfit-select h6 md-h7"
                 on="change: AMP.setState({products: {category: event.value}})">
       <option value="all">All</option>
       <option value="treadmills">treadmills</option>
@@ -328,11 +328,11 @@ limitations under the License.
           width="300"
           layout="responsive">
           <template type="amp-mustache">
-          <a href="products/{{category}}/{{id}}.html" target="_self" class="commerce-listing-product text-decoration-none inline-block col-6 md-col-4 lg-col-3 px1 mb2 md-mb4 relative">
+          <a href="products/{{category}}/{{id}}.html" target="_self" class="laxfit-listing-product text-decoration-none inline-block col-6 md-col-4 lg-col-3 px1 mb2 md-mb4 relative">
             <div class="flex flex-column justify-between">
               <div>
-                <amp-img class="commerce-listing-product-image mb2" src="{{image}}" width="340" height="340" layout="responsive" alt="{{ name }}" noloading=""><div placeholder="" class="commerce-loader"></div></amp-img>
-                <h2 class="commerce-listing-product-name h6">{{ name }}</h2>
+                <amp-img class="laxfit-listing-product-image mb2" src="{{image}}" width="340" height="340" layout="responsive" alt="{{ name }}" noloading=""><div placeholder="" class="laxfit-loader"></div></amp-img>
+                <h2 class="laxfit-listing-product-name h6">{{ name }}</h2>
                 {{ description }}
               </div>
               <div class="h6 mt1">&#8377;{{ price }}</div>
@@ -343,11 +343,11 @@ limitations under the License.
       </div>
     </section>
   </main>
-  <footer class="commerce-footer center">
+  <footer class="laxfit-footer center">
     <nav class="mx-auto md-mb0 md-pt5 md-pb5">
       <ul class="list-reset flex flex-wrap my0 md-pl4 md-pr4 md-mxn4">
         <li class="pt3 md-pt0 md-px4 col-12 md-col-3 lg-col-2">
-                    <h2 class="commerce-footer-header h7 pb2">About us</h2>
+                    <h2 class="laxfit-footer-header h7 pb2">About us</h2>
           <ul class="list-reset pb3 md-mx0">
             <li>
               Authorized Dealer of Herculese Fitness
@@ -356,7 +356,7 @@ limitations under the License.
           <hr class="md-hide lg-hide col-12 mx0">
         </li>
         <li class="pt3 md-pt0 md-px4 col-12 md-col-3 lg-col-2">
-          <h2 class="commerce-footer-header h7 pb2">Contact Us</h2>
+          <h2 class="laxfit-footer-header h7 pb2">Contact Us</h2>
           <ul class="list-reset pb3 md-mx0">
             <li>
               <a class="text-decoration-none"

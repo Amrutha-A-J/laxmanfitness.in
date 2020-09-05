@@ -3013,7 +3013,7 @@ dd:after {
   display: block
 }
 
-.commerce-loader,.commerce-loader:after,.commerce-loader:before {
+.laxfit-loader,.laxfit-loader:after,.laxfit-loader:before {
   border-radius: 50%;
   width: .5rem;
   height: .5rem;
@@ -3022,33 +3022,33 @@ dd:after {
   will-change: contents
 }
 
-.commerce-loader {
+.laxfit-loader {
   color: #666;
   margin: 24% auto;
   animation-delay: .16s
 }
 
-.commerce-loader:after,.commerce-loader:before {
+.laxfit-loader:after,.laxfit-loader:before {
   content: "";
   position: absolute;
   top: 0
 }
 
-.commerce-loader:before {
+.laxfit-loader:before {
   left: -1rem;
   animation-delay: 0s
 }
 
-.commerce-loader:after {
+.laxfit-loader:after {
   left: 1rem;
   animation-delay: .32s
 }
 
-.commerce-hero-image .commerce-loader {
+.laxfit-hero-image .laxfit-loader {
   margin-top: 200px
 }
 
-.commerce-listing-banner .commerce-loader {
+.laxfit-listing-banner .laxfit-loader {
   margin-top: 100px
 }
 
@@ -3062,12 +3062,12 @@ dd:after {
   }
 }
 
-.commerce-select-wrapper {
+.laxfit-select-wrapper {
   position: relative;
   padding: 0 13px 0 13px
 }
 
-.commerce-select {
+.laxfit-select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -3077,7 +3077,7 @@ dd:after {
   color: #666
 }
 
-.amp-mode-mouse .commerce-select:hover {
+.amp-mode-mouse .laxfit-select:hover {
   color: #222;
   cursor: pointer
 }
@@ -3174,13 +3174,13 @@ amp-selector [option][selected] {
 }
 
 @media (min-width:52.06rem) {
-  .commerce-side-panel {
+  .laxfit-side-panel {
     position: -webkit-sticky;
     position: sticky;
     top: 5rem
   }
 
-  .md-commerce-header {
+  .md-laxfit-header {
     margin-top: 1.5rem;
     border-top: 1px solid #f3f3f3;
     border-bottom: 1px solid #f3f3f3
@@ -3195,17 +3195,17 @@ amp-selector [option][selected] {
   padding-left: 0
 }
 
-.commerce-pullquote-author {
+.laxfit-pullquote-author {
   font-size: 1rem;
   margin-bottom: 1.5rem
 }
 
-.commerce-pullquote-author,.commerce-table {
+.laxfit-pullquote-author,.laxfit-table {
   font-family: Open Sans Condensed,sans-serif;
   font-weight: 700
 }
 
-.commerce-table {
+.laxfit-table {
   border-collapse: collapse;
   width: 100%;
   min-width: 300px;
@@ -3214,24 +3214,24 @@ amp-selector [option][selected] {
   color: #222
 }
 
-.commerce-table-header {
+.laxfit-table-header {
   background: #000;
   color: #fff
 }
 
-.commerce-table td,.commerce-table th {
+.laxfit-table td,.laxfit-table th {
   padding: 0;
   border: 1px solid #000;
   line-height: 3rem
 }
 
-.commerce-table td {
+.laxfit-table td {
   border: 1px solid #e9e9e9;
   width: 25%;
   background-color: #fff
 }
 
-.commerce-table td:first-child {
+.laxfit-table td:first-child {
   width: 50%
 }
 
@@ -3438,23 +3438,23 @@ amp-selector [option][selected] {
   margin-right: 0
 }
 
-.commerce-landing,.commerce-listing {
+.laxfit-landing,.laxfit-listing {
   max-width: none
 }
 
-.commerce-hero-content {
+.laxfit-hero-content {
   padding: 3rem 1.5rem
 }
 
-.amp-mode-mouse .commerce-hero-image {
+.amp-mode-mouse .laxfit-hero-image {
   transition: transform 1s
 }
 
-.amp-mode-mouse .commerce-hero-content-wrapper:hover .commerce-hero-image {
+.amp-mode-mouse .laxfit-hero-content-wrapper:hover .laxfit-hero-image {
   transform: scale(1.05)
 }
 
-.commerce-hero-content-body {
+.laxfit-hero-content-body {
   padding: 1rem 1rem 1.5rem;
   font-family: Cardo,sans-serif;
   width: 100%;
@@ -3462,18 +3462,18 @@ amp-selector [option][selected] {
   margin: 0 auto
 }
 
-.commerce-hero-content-title {
+.laxfit-hero-content-title {
   font-weight: 700
 }
 
 @media (min-width:52.06rem) {
-  .commerce-hero-content-wrapper {
+  .laxfit-hero-content-wrapper {
     position: relative;
     color: #fff;
     text-align: left
   }
 
-  .commerce-hero-content-title {
+  .laxfit-hero-content-title {
     font-size: 3.5rem;
     color: #fff;
     background-color: rgba(0,0,0,0.5);
@@ -3482,7 +3482,7 @@ amp-selector [option][selected] {
     max-width: 500px
   }
 
-  .commerce-hero-content-body {
+  .laxfit-hero-content-body {
     font-size: 1rem;
     margin-bottom: 2rem;
     background-color: rgba(0,0,0,0.5);
@@ -3490,12 +3490,12 @@ amp-selector [option][selected] {
     padding-left: 2rem
   }
 
-  .commerce-hero-align {
+  .laxfit-hero-align {
     width: 100%;
     max-width: 1280px
   }
 
-  .commerce-hero-content {
+  .laxfit-hero-content {
     position: absolute;
     top: 0;
     left: 0;
@@ -3504,23 +3504,23 @@ amp-selector [option][selected] {
     padding: 0
   }
 
-  .commerce-hero-content-wrapper .ampstart-btn {
+  .laxfit-hero-content-wrapper .ampstart-btn {
     background-color: #fff;
     border: none;
     color: #222;
     font-size: .94rem
   }
 
-  .commerce-hero-content-theme-secondary,.commerce-hero-content-theme-secondary .commerce-hero-content-title {
+  .laxfit-hero-content-theme-secondary,.laxfit-hero-content-theme-secondary .laxfit-hero-content-title {
     color: #222
   }
 
-  .commerce-hero-content-theme-secondary .ampstart-btn {
+  .laxfit-hero-content-theme-secondary .ampstart-btn {
     color: #fff;
     background-color: #222
   }
 
-  .amp-mode-mouse .commerce-hero-content-theme-secondary .ampstart-btn:hover {
+  .amp-mode-mouse .laxfit-hero-content-theme-secondary .ampstart-btn:hover {
     background-color: #fff;
     color: #222
   }
@@ -3536,49 +3536,49 @@ amp-selector [option][selected] {
   color: #dadada
 }
 
-.commerce-product-btn-wrapper {
+.laxfit-product-btn-wrapper {
   text-align: center
 }
 
 @media (min-width:52.06rem) {
-  .commerce-product-btn-wrapper {
+  .laxfit-product-btn-wrapper {
     text-align: initial
   }
 }
 
-.commerce-product-color-swatch {
+.laxfit-product-color-swatch {
   height: 24px;
   width: 24px;
   margin-left: .5rem
 }
 
-.commerce-product-color-swatch:first-child {
+.laxfit-product-color-swatch:first-child {
   margin-left: 0
 }
 
-.commerce-product-color-blue {
+.laxfit-product-color-blue {
   background-color: #1d4cdf
 }
 
-.commerce-product-color-black {
+.laxfit-product-color-black {
   background-color: #000
 }
 
-.commerce-product-thumb {
+.laxfit-product-thumb {
   width: 43px;
   margin-left: .5rem
 }
 
-.commerce-product-thumb:first-child {
+.laxfit-product-thumb:first-child {
   margin-left: 0
 }
 
 @media (min-width:52.06rem) {
-  .commerce-product-thumb {
+  .laxfit-product-thumb {
     width: 80px
   }
 
-  .commerce-product-desc {
+  .laxfit-product-desc {
     margin-right: 8.33333%
   }
 }
@@ -3593,75 +3593,75 @@ amp-selector [option][selected] {
   }
 }
 
-.commerce-listing-banner {
+.laxfit-listing-banner {
   width: 100%
 }
 
-.commerce-listing-filters {
+.laxfit-listing-filters {
   border-top: 1px solid #f3f3f3;
   border-bottom: 1px solid #f3f3f3
 }
 
 @media (min-width:52.06rem) {
-  .commerce-listing-filters {
+  .laxfit-listing-filters {
     border: none
   }
 }
 
-.commerce-listing-content {
+.laxfit-listing-content {
   max-width: 1280px
 }
 
-.commerce-listing-product,.commerce-listing-product>div {
+.laxfit-listing-product,.laxfit-listing-product>div {
   min-height: 275px
 }
 
-.commerce-listing-product-image {
+.laxfit-listing-product-image {
   border-bottom: 1px dashed #dadada
 }
 
-.amp-mode-mouse .commerce-listing-product:hover>.commerce-listing-product-name {
+.amp-mode-mouse .laxfit-listing-product:hover>.laxfit-listing-product-name {
   text-decoration: underline
 }
 
-.commerce-footer {
+.laxfit-footer {
   background-color: #222
 }
 
-.commerce-footer h3 {
+.laxfit-footer h3 {
   padding-top: 0
 }
 
-.amp-mode-mouse .commerce-footer a:hover {
+.amp-mode-mouse .laxfit-footer a:hover {
   text-decoration: underline
 }
 
-.commerce-footer,.commerce-footer-header,.commerce-footer h3 {
+.laxfit-footer,.laxfit-footer-header,.laxfit-footer h3 {
   color: #fff
 }
 
-.commerce-footer hr {
+.laxfit-footer hr {
   background-color: #4a4a4a
 }
 
-.commerce-footer nav {
+.laxfit-footer nav {
   max-width: 1280px
 }
 
-.commerce-footer .ampstart-icon {
+.laxfit-footer .ampstart-icon {
   fill: #6a6a6a
 }
 
-.commerce-footer .ampstart-social-follow {
+.laxfit-footer .ampstart-social-follow {
   margin-bottom: 0
 }
 
 @media (min-width:52.06rem) {
-  .commerce-footer {
+  .laxfit-footer {
     text-align: initial
   }
 
-  .commerce-footer .ampstart-social-follow li:first-child a {
+  .laxfit-footer .ampstart-social-follow li:first-child a {
     padding-left: 0
   }
 }
@@ -3672,11 +3672,11 @@ amp-selector [option][selected] {
   }
 }
 
-.commerce-related-products {
+.laxfit-related-products {
   border-top: 1px solid #f3f3f3
 }
 
-.commerce-related-products .amp-carousel-button {
+.laxfit-related-products .amp-carousel-button {
   background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/><path d="M0-.5h24v24H0z" fill="none"/></svg>') 30px 30px transparent;
   cursor: pointer;
   height: 30px;
@@ -3684,26 +3684,26 @@ amp-selector [option][selected] {
   top: 40%
 }
 
-.commerce-related-products .amp-carousel-button-next,.commerce-related-products .amp-carousel-button-prev {
+.laxfit-related-products .amp-carousel-button-next,.laxfit-related-products .amp-carousel-button-prev {
   display: initial
 }
 
-.commerce-related-products .amp-carousel-button-prev {
+.laxfit-related-products .amp-carousel-button-prev {
   left: 0
 }
 
-.commerce-related-products .amp-carousel-button-next {
+.laxfit-related-products .amp-carousel-button-next {
   right: 0;
   transform: translateY(-50%) rotate(180deg)
 }
 
-.commerce-related-product {
+.laxfit-related-product {
   width: 105px;
   overflow: hidden;
   text-overflow: ellipsis
 }
 
-.amp-mode-mouse .commerce-related-product:hover .commerce-related-product-name {
+.amp-mode-mouse .laxfit-related-product:hover .laxfit-related-product-name {
   text-decoration: underline
 }
 
