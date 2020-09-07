@@ -1,6 +1,8 @@
 <!doctype html>
 <html ⚡=""
-  lang="en"><head>
+  lang="en">
+
+<head>
   <meta charset="utf-8">
   <title>Laxman Fitness</title>
   <link rel="canonical"
@@ -8,8 +10,10 @@
   <meta name="viewport"
     content="width=device-width,minimum-scale=1,initial-scale=1">
   <meta name="amp-google-client-id-api"
-    content="googleanalytics">  <script async=""
-    src="https://cdn.ampproject.org/v0.js"></script>  <style amp-boilerplate="">
+    content="googleanalytics">
+  <script async=""
+    src="https://cdn.ampproject.org/v0.js"></script>
+  <style amp-boilerplate="">
     body {
       -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
       -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
@@ -60,7 +64,9 @@
       to {
         visibility: visible
       }
-    }  </style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    }
+
+  </style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   <script custom-element="amp-sidebar"
     src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"
     async=""></script>
@@ -72,13 +78,23 @@
     async=""></script>
   <script custom-element="amp-selector"
     src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"
-    async=""></script><script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
-    rel="stylesheet">  <style amp-custom="">
-    /*! Bassplate | MIT License | http://github.com/basscss/bassplate */  </style>
+    async=""></script>
+  <script async
+    custom-template="amp-mustache"
+    src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
+    rel="stylesheet">
+  <style amp-custom="">
+    /*! Bassplate | MIT License | http://github.com/basscss/bassplate */
+
+  </style>
   <link rel="stylesheet"
     type="text/css"
     href="/css/page.css">
-</head><body>  <!-- Start Navbar -->
+</head>
+
+<body>
+  <!-- Start Navbar -->
   <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 pt2 md-pt0">
     <div role="button"
       aria-label="open sidebar"
@@ -109,7 +125,8 @@
        }]
      }
      -->
-  </header>  <!-- Start Sidebar -->
+  </header>
+  <!-- Start Sidebar -->
   <amp-sidebar id="header-sidebar"
     class="ampstart-sidebar px3  md-flex flex-column justify-content items-center justify-center"
     layout="nodisplay">
@@ -133,43 +150,47 @@
         <li class="ampstart-nav-item "><a class="ampstart-nav-link"
             href="/contact.html">Contact us</a></li>
       </ul>
-    </nav>    <h3 class="h7 block pt3">visit us</h3>
-     <ul class="side-bar-contact list-reset flex justify-around items-center flex-wrap m0 mb4">
+    </nav>
+    <h3 class="h7 block pt3">visit us</h3>
+    <ul class="side-bar-contact list-reset flex justify-around items-center flex-wrap m0 mb4">
       <li>
         <li>
-          Opp.Valiyalukkal Temple,
-          P.O.Kanimangalam,
-          Thrissur-680027, Kerala, India
+          Opp.Valiyalukkal Temple, P.O.Kanimangalam, Thrissur-680027, Kerala, India
         </li>
     </ul>
     <ul class="side-bar-contact list-reset pb3 md-mx0">
       <li>
-         <a class="text-decoration-none"
-           href="tel:+919388322422">93883224220</a>
-       </li>
-       <li>
-           <a class="text-decoration-none"
-           href="tel:+918921135750">8921135750</a>
-       </li>
-       <li>
-           <a class="text-decoration-none"
-           href="tel:+9104872448030">0487 2448030</a>
-       </li>
-       <li>
-         <a class="text-decoration-none"
-           href="mailto:laxmanfitness@gmail.com">laxmanfitness@gmail.com</a>
-       </li>
-     </ul>
+        <a class="text-decoration-none"
+          href="tel:+919388322422">93883224220</a>
+      </li>
+      <li>
+        <a class="text-decoration-none"
+          href="tel:+918921135750">8921135750</a>
+      </li>
+      <li>
+        <a class="text-decoration-none"
+          href="tel:+9104872448030">0487 2448030</a>
+      </li>
+      <li>
+        <a class="text-decoration-none"
+          href="mailto:laxmanfitness@gmail.com">laxmanfitness@gmail.com</a>
+      </li>
+    </ul>
   </amp-sidebar>
   <!-- End Sidebar -->
-  <!-- End Navbar -->  <main id="content"
+  <!-- End Navbar -->
+  <main id="content"
     role="main"
-    class="main">    <amp-state id="product">
+    class="main">
+    <amp-state id="product">
       <script type="application/json">
         {
           "selectedSlide": 0
-        }      </script>
-    </amp-state>    <section class="flex flex-wrap md-pb7">
+        }
+
+      </script>
+    </amp-state>
+    <section class="flex flex-wrap md-pb7">
       <div class="col-12 md-col-6 px2 pt2 md-pl7 md-pt4">
         <amp-carousel width="1280"
           height="720"
@@ -210,7 +231,8 @@
             <div placeholder=""
               class="laxfit-loader"></div>
           </amp-img>
-        </amp-carousel>        <amp-selector class="center"
+        </amp-carousel>
+        <amp-selector class="center"
           [selected]="product.selectedSlide"
           on="select:AMP.setState({product: {selectedSlide: event.targetOption}})">
           <ul class="list-reset inline-block">
@@ -250,18 +272,18 @@
         <div class="col-12 self-start pb4 laxfit-product-desc">
           <section>
             <h2 class="h5 md-h4">Benefits</h2>
-              <ul class="mt2 mb3 product-benefit-list">
-                <li>Low Risk on Exercise</li>
-                <li>Weight Loss</li>
-                <li>Improve Immune System</li>
-                <li>Improve Joint Mobility</li>
-                <li>Improve Heart & Lungs Function</li>
-              </ul>
+            <ul class="mt2 mb3 product-benefit-list">
+              <li>Low Risk on Exercise</li>
+              <li>Weight Loss</li>
+              <li>Improve Immune System</li>
+              <li>Improve Joint Mobility</li>
+              <li>Improve Heart & Lungs Function</li>
+            </ul>
             <hr>
           </section>
         </div>
         <div class="col-12 self-start pb4">
-           <section>
+          <section>
             <h2 class="h5 md-h4">Technical Features</h2>
             <div class="mt2">
               <dl class="flex flex-wrap">
@@ -271,19 +293,19 @@
                 <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Manual Resistance Control</dd>
                 <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">Display</dt>
                 <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Time, Distance, Speed, Calorie/dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">Crank</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Uni Crank Design</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">Maximum user weight</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">90 Kgs</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">Floor Space</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">21” x 40”</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">Others</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">
-                  <ul class="product-features-list">
-                    <li>Precise Bearing for smooth function</li>
-                    <li>High strength steel frame & Ultra stable structure</li>
-                  </ul>
-                </dd>
+                  <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">Crank</dt>
+                  <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Uni Crank Design</dd>
+                  <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">Maximum user weight</dt>
+                  <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">90 Kgs</dd>
+                  <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">Floor Space</dt>
+                  <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">21” x 40”</dd>
+                  <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">Others</dt>
+                  <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">
+                    <ul class="product-features-list">
+                      <li>Precise Bearing for smooth function</li>
+                      <li>High strength steel frame & Ultra stable structure</li>
+                    </ul>
+                  </dd>
               </dl>
             </div>
           </section>
@@ -295,7 +317,7 @@
     <nav class="mx-auto md-mb0 md-pt5 md-pb5">
       <ul class="list-reset flex flex-wrap my0 md-pl4 md-pr4 md-mxn4">
         <li class="pt3 md-pt0 md-px4 col-12 md-col-3 lg-col-2">
-                    <h2 class="laxfit-footer-header h7 pb2">About us</h2>
+          <h2 class="laxfit-footer-header h7 pb2">About us</h2>
           <ul class="list-reset pb3 md-mx0">
             <li>
               Authorized Dealer of Herculese Fitness
@@ -307,16 +329,16 @@
         <li class="pt3 md-pt0 md-px4 col-12 md-col-3 lg-col-2">
           <h2 class="laxfit-footer-header h7 pb2">Contact Us</h2>
           <ul class="list-reset pb3 md-mx0">
-           <li>
+            <li>
               <a class="text-decoration-none"
                 href="tel:+919388322422">93883224220</a>
             </li>
             <li>
-                <a class="text-decoration-none"
+              <a class="text-decoration-none"
                 href="tel:+918921135750">8921135750</a>
             </li>
             <li>
-                <a class="text-decoration-none"
+              <a class="text-decoration-none"
                 href="tel:+9104872448030">0487 2448030</a>
             </li>
             <li>
@@ -330,13 +352,11 @@
           <h3 class="h7 block pt3">visit us</h3>
           <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
             <li>
-              Opp.Valiyalukkal Temple,
-              P.O.Kanimangalam,
-              Thrissur-680027, Kerala, India
+              Opp.Valiyalukkal Temple, P.O.Kanimangalam, Thrissur-680027, Kerala, India
             </li>
             <li>
               <a class="text-decoration-none"
-            href="google.com/maps/place/Laxman+Fitness/@10.491018,76.207795,15z/data=!4m5!3m4!1s0x0:0xbb480ceb9c11e5fc!8m2!3d10.4919041!4d76.212945?hl=en-GB">Google Map</a>
+                href="google.com/maps/place/Laxman+Fitness/@10.491018,76.207795,15z/data=!4m5!3m4!1s0x0:0xbb480ceb9c11e5fc!8m2!3d10.4919041!4d76.212945?hl=en-GB">Google Map</a>
             </li>
           </ul>
         </li>
@@ -344,18 +364,26 @@
       <ul class="list-reset flex flex-wrap my0 md-pl4 md-pr4 md-mxn4">
         <li class="flex-auto">
           <div class="embedded-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7846.208892491293!2d76.20915578721866!3d10.492432129339745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f15f9e90e629%3A0xbb480ceb9c11e5fc!2sLaxman+Fitness!5e0!3m2!1sen!2sin!4v1534604625756" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-         </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7846.208892491293!2d76.20915578721866!3d10.492432129339745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f15f9e90e629%3A0xbb480ceb9c11e5fc!2sLaxman+Fitness!5e0!3m2!1sen!2sin!4v1534604625756"
+          
+              width="100%"
+              height="100%"
+              frameborder="0"
+              style="border:0"
+              allowfullscreen></iframe>
+          </div>
         </li>
       </ul>
       <ul class="list-reset flex flex-wrap my0 md-pl4 md-pr4 md-mxn4">
         <li class="flex-auto">
           <a href="/index.html"
-          class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0 site-logo">
+            class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0 site-logo">
             LAXMAN <span>FITNESS</span>
           </a>
         </li>
       </ul>
     </nav>
   </footer>
-</body></html>
+</body>
+
+</html>
