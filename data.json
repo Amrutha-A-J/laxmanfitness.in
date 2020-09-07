@@ -196,9 +196,7 @@
                         "Display : Speed, Distance, Time, Calories and Pulse",
                         "Heart Rate Monitor : Yes"
                     ]
-                }
-
-            ]
+                }            ]
         },
         "multi_gym": {
             "intro": "Work on your abs, pecs and biceps right from the comfort of your home with the Hercules Multi Gym. Bring the gym to your house.",
@@ -212,9 +210,7 @@
                         "Functions : Tricep extension, Ab crunch, Leg extension, Lat, Bicep curl, Shoulder press, Leg curl",
                         "Dimensions : L-63″ X W-39″ X H-80″"
                     ]
-                }
-
-            ]
+                }            ]
         }
     }
 }

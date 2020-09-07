@@ -1,407 +1,391 @@
 <!doctype html>
-
-<!---
-Copyright 2017 The AMP Start Authors. All Rights Reserved.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS-IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
--->
-
 <html ⚡=""
-  lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>Laxman Fitness</title>
-  <link rel="canonical"
-    href="https://laxmanfitness.in/product-listing.html">
-  <meta name="viewport"
-    content="width=device-width,minimum-scale=1,initial-scale=1">
-  <meta name="amp-google-client-id-api"
-    content="googleanalytics">
-
-  <script async=""
-    src="https://cdn.ampproject.org/v0.js"></script>
-
-
-
-  <style amp-boilerplate="">
-    body {
-      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-      animation: -amp-start 8s steps(1, end) 0s 1 normal both
-    }
-    
-    @-webkit-keyframes -amp-start {
-      from {
-        visibility: hidden
-      }
-      to {
-        visibility: visible
-      }
-    }
-    
-    @-moz-keyframes -amp-start {
-      from {
-        visibility: hidden
-      }
-      to {
-        visibility: visible
-      }
-    }
-    
-    @-ms-keyframes -amp-start {
-      from {
-        visibility: hidden
-      }
-      to {
-        visibility: visible
-      }
-    }
-    
-    @-o-keyframes -amp-start {
-      from {
-        visibility: hidden
-      }
-      to {
-        visibility: visible
-      }
-    }
-    
-    @keyframes -amp-start {
-      from {
-        visibility: hidden
-      }
-      to {
-        visibility: visible
-      }
-    }
-
-  </style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
-
-  <script custom-element="amp-sidebar"
-    src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"
-    async=""></script>
-  <script custom-element="amp-list"
-    src="https://cdn.ampproject.org/v0/amp-list-0.1.js"
-    async=""></script>
-  <script custom-element="amp-bind"
-    src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"
-    async=""></script>
-
-<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
-    rel="stylesheet">
-
-  <style amp-custom="">
-    /*! Bassplate | MIT License | http://github.com/basscss/bassplate */
-
-  </style>
-  <link rel="stylesheet"
-    type="text/css"
-    href="/css/page.css">
-</head>
-
-<body>
-
-  <!-- Start Navbar -->
-  <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 pt2 md-pt0">
-    <div role="button"
-      aria-label="open sidebar"
-      on="tap:header-sidebar.toggle"
-      tabindex="0"
-      class="ampstart-navbar-trigger  pr2 absolute top-0 pr0 mr2 mt2"><svg xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        class="block"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
-    </div>
-    <a href="/index.html"
-      class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0 site-logo">
-        LAXMAN <span>FITNESS</span>
-      </a>
-    <!--
-      TODO: currently "fixeditems" is an array, therefore it's not possible to
-      add additional classes to it. An alternative solution would be to make it
-      an oject, with a "classes" and "items" sub-properties:
-     "fixeditems": {
-       "classes": "col-3",
-       "items": [{
-         "link": {
-           "url": "mailto:contact@lune.com",
-           "text": "—contact@lune.com",
-           "classes": "xs-small sm-hide h6 bold"
+   lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Laxman Fitness</title>
+      <link rel="canonical"
+         href="https://laxmanfitness.in/product-listing.html">
+      <meta name="viewport"
+         content="width=device-width,minimum-scale=1,initial-scale=1">
+      <meta name="amp-google-client-id-api"
+         content="googleanalytics">
+      <script async=""
+         src="https://cdn.ampproject.org/v0.js"></script>
+      <style amp-boilerplate="">
+         body {
+         -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+         -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+         -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+         animation: -amp-start 8s steps(1, end) 0s 1 normal both
          }
-       }]
-     }
-     -->
-  </header>
-
-  <!-- Start Sidebar -->
-  <amp-sidebar id="header-sidebar"
-    class="ampstart-sidebar px3  md-flex flex-column justify-content items-center justify-center"
-    layout="nodisplay">
-    <div class="flex justify-start items-center ampstart-sidebar-header">
-      <div role="button"
-        aria-label="close sidebar"
-        on="tap:header-sidebar.toggle"
-        tabindex="0"
-        class="ampstart-navbar-trigger items-start">✕</div>
-    </div>
-    <nav class="ampstart-sidebar-nav ampstart-nav">
-      <ul class="list-reset m0 p0 ampstart-label">
-        <li>
-          <a href="/index.html"
-            class="text-decoration-none block 22 site-logo site-logo-side">
-            LAXMAN <span>FITNESS</span>
-          </a>
-        </li>
-        <li class="ampstart-nav-item "><a class="ampstart-nav-link"
-            href="product-listing.html">Products</a></li>
-        <li class="ampstart-nav-item "><a class="ampstart-nav-link"
-            href="contact.html">Contact us</a></li>
-      </ul>
-    </nav>
-
-
-
-    <h3 class="h7 block pt3">visit us</h3>
-    <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
-      <li>
-        <a href="#"
-          target="_blank"
-          class="inline-block p1"
-          aria-label="Link to AMP HTML Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.6" viewBox="0 0 56 55"><title>Facebook</title><path d="M47.5 43c0 1.2-.9 2.1-2.1 2.1h-10V30h5.1l.8-5.9h-5.9v-3.7c0-1.7.5-2.9 3-2.9h3.1v-5.3c-.6 0-2.4-.2-4.6-.2-4.5 0-7.5 2.7-7.5 7.8v4.3h-5.1V30h5.1v15.1H10.7c-1.2 0-2.2-.9-2.2-2.1V8.3c0-1.2 1-2.2 2.2-2.2h34.7c1.2 0 2.1 1 2.1 2.2V43" class="ampstart-icon ampstart-icon-fb"></path></svg></a>
-      </li>
-      <li>
-        <a href="#"
-          target="_blank"
-          class="inline-block p1"
-          aria-label="Link to AMP HTML Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 54 54"><title>instagram</title><path d="M27.2 6.1c-5.1 0-5.8 0-7.8.1s-3.4.4-4.6.9c-1.2.5-2.3 1.1-3.3 2.2-1.1 1-1.7 2.1-2.2 3.3-.5 1.2-.8 2.6-.9 4.6-.1 2-.1 2.7-.1 7.8s0 5.8.1 7.8.4 3.4.9 4.6c.5 1.2 1.1 2.3 2.2 3.3 1 1.1 2.1 1.7 3.3 2.2 1.2.5 2.6.8 4.6.9 2 .1 2.7.1 7.8.1s5.8 0 7.8-.1 3.4-.4 4.6-.9c1.2-.5 2.3-1.1 3.3-2.2 1.1-1 1.7-2.1 2.2-3.3.5-1.2.8-2.6.9-4.6.1-2 .1-2.7.1-7.8s0-5.8-.1-7.8-.4-3.4-.9-4.6c-.5-1.2-1.1-2.3-2.2-3.3-1-1.1-2.1-1.7-3.3-2.2-1.2-.5-2.6-.8-4.6-.9-2-.1-2.7-.1-7.8-.1zm0 3.4c5 0 5.6 0 7.6.1 1.9.1 2.9.4 3.5.7.9.3 1.6.7 2.2 1.4.7.6 1.1 1.3 1.4 2.2.3.6.6 1.6.7 3.5.1 2 .1 2.6.1 7.6s0 5.6-.1 7.6c-.1 1.9-.4 2.9-.7 3.5-.3.9-.7 1.6-1.4 2.2-.7.7-1.3 1.1-2.2 1.4-.6.3-1.7.6-3.5.7-2 .1-2.6.1-7.6.1-5.1 0-5.7 0-7.7-.1-1.8-.1-2.9-.4-3.5-.7-.9-.3-1.5-.7-2.2-1.4-.7-.7-1.1-1.3-1.4-2.2-.3-.6-.6-1.7-.7-3.5 0-2-.1-2.6-.1-7.6 0-5.1.1-5.7.1-7.7.1-1.8.4-2.8.7-3.5.3-.9.7-1.5 1.4-2.2.7-.6 1.3-1.1 2.2-1.4.6-.3 1.6-.6 3.5-.7h7.7zm0 5.8c-5.4 0-9.7 4.3-9.7 9.7 0 5.4 4.3 9.7 9.7 9.7 5.4 0 9.7-4.3 9.7-9.7 0-5.4-4.3-9.7-9.7-9.7zm0 16c-3.5 0-6.3-2.8-6.3-6.3s2.8-6.3 6.3-6.3 6.3 2.8 6.3 6.3-2.8 6.3-6.3 6.3zm12.4-16.4c0 1.3-1.1 2.3-2.3 2.3-1.3 0-2.3-1-2.3-2.3 0-1.2 1-2.3 2.3-2.3 1.2 0 2.3 1.1 2.3 2.3z" class="ampstart-icon ampstart-icon-instagram"></path></svg></a>
-      </li>
-      <li>
-        <a href="#"
-          target="_blank"
-          class="inline-block p1"
-          aria-label="Link to AMP HTML Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="22.2" viewBox="0 0 53 49"><title>Twitter</title><path d="M45 6.9c-1.6 1-3.3 1.6-5.2 2-1.5-1.6-3.6-2.6-5.9-2.6-4.5 0-8.2 3.7-8.2 8.3 0 .6.1 1.3.2 1.9-6.8-.4-12.8-3.7-16.8-8.7C8.4 9 8 10.5 8 12c0 2.8 1.4 5.4 3.6 6.9-1.3-.1-2.6-.5-3.7-1.1v.1c0 4 2.8 7.4 6.6 8.1-.7.2-1.5.3-2.2.3-.5 0-1 0-1.5-.1 1 3.3 4 5.7 7.6 5.7-2.8 2.2-6.3 3.6-10.2 3.6-.6 0-1.3-.1-1.9-.1 3.6 2.3 7.9 3.7 12.5 3.7 15.1 0 23.3-12.6 23.3-23.6 0-.3 0-.7-.1-1 1.6-1.2 3-2.7 4.1-4.3-1.4.6-3 1.1-4.7 1.3 1.7-1 3-2.7 3.6-4.6" class="ampstart-icon ampstart-icon-twitter"></path></svg></a>
-      </li>
-    </ul>
-
-  </amp-sidebar>
-  <!-- End Sidebar -->
-  <!-- End Navbar -->
-  <main id="content"
-    role="main"
-    class="main laxfit-listing">
-    <amp-state id="products">
-      <script type="application/json">
-        {
-          "category": "all"
-        }
-
-      </script>
-    </amp-state>
-    <amp-img class="laxfit-listing-banner xs-hide sm-hide"
-      src="/img/category-landing-wide.jpg"
-      width="2560"
-      height="400"
-      layout="responsive"
-      alt="Product listing"
-      noloading="">
-      <div placeholder=""
-        class="laxfit-loader"></div>
-    </amp-img>
-    <section class="laxfit-listing-content mx-auto flex flex-wrap pb4">
-      <div class="col-3 xs-hide sm-hide flex flex-column">
-        <div class="laxfit-side-panel pt4 pr4 self-center">
-          <h2 class="h5 mb2">Categories</h2>
-
-          <!-- Start Radio -->
-          <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 "
-            on="change: AMP.setState({products: {category: 'all'}})">
-            <input type="radio"
-              value=""
-              name="category"
-              id="all"
-              class="relative"
-              checked="">
-            <label for="all"
-              class=""
-              aria-hidden="true">All</label>
-          </div>
-          <!-- End Radio -->
-
-
-          <!-- Start Radio -->
-          <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 "
-            on="change: AMP.setState({products: {category: 'treadmills'}})">
-            <input type="radio"
-              value=""
-              name="category"
-              id="treadmills"
-              class="relative">
-            <label for="treadmills"
-              class=""
-              aria-hidden="true">Treadmills</label>
-          </div>
-          <!-- End Radio -->
-          <!-- Start Radio -->
-          <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 "
-            on="change: AMP.setState({products: {category: 'exerciseBikes'}})">
-            <input type="radio"
-              value=""
-              name="category"
-              id="exerciseBikes"
-              class="relative">
-            <label for="exerciseBikes"
-              class=""
-              aria-hidden="true">Exercise Bikes</label>
-          </div>
-          <!-- End Radio -->
-          <!-- Start Radio -->
-          <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 "
-            on="change: AMP.setState({products: {category: 'ellipticals'}})">
-            <input type="radio"
-              value=""
-              name="category"
-              id="ellipticals"
-              class="relative">
-            <label for="ellipticals"
-              class=""
-              aria-hidden="true">Ellipticals</label>
-          </div>
-          <!-- End Radio -->
-          <!-- Start Radio -->
-          <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 "
-            on="change: AMP.setState({products: {category: 'multiGym'}})">
-            <input type="radio"
-              value=""
-              name="category"
-              id="multiGym"
-              class="relative">
-            <label for="multiGym"
-              class=""
-              aria-hidden="true">Multi-Gym</label>
-          </div>
-          <!-- End Radio -->
-        </div>
-      </div>
-
-      <div class="col-12 md-col-7 pt2 pb3 md-px4 md-pt1 md-pb7">
-        <div class="md-laxfit-header relative md-flex flex-wrap items-center md-mx0 md-mb2">
-          <h1 class="h3 mb2 md-mt2 md-mb2 md-ml0 flex-auto px2">Products</h1>
-          <div class="laxfit-listing-filters pt2 pb2 mb3 md-mb0">
-            <div class="laxfit-select-wrapper inline-block md-mr1 pl2 md-hide lg-hide">
-              <label for="categories"
-                class="bold caps h6 md-h7">Show:</label>
-              <select name="categories"
-                id="categories"
-                class="laxfit-select h6 md-h7"
-                on="change: AMP.setState({products: {category: event.value}})">
-      <option value="all">All</option>
-      <option value="treadmills">treadmills</option>
-      <option value="exerciseBikes">exercise bikes</option>
-      <option value="ellipticals">ellipticals</option>
-      <option value="multiGym">multi-gym</option>
-  </select>
+         @-webkit-keyframes -amp-start {
+         from {
+         visibility: hidden
+         }
+         to {
+         visibility: visible
+         }
+         }
+         @-moz-keyframes -amp-start {
+         from {
+         visibility: hidden
+         }
+         to {
+         visibility: visible
+         }
+         }
+         @-ms-keyframes -amp-start {
+         from {
+         visibility: hidden
+         }
+         to {
+         visibility: visible
+         }
+         }
+         @-o-keyframes -amp-start {
+         from {
+         visibility: hidden
+         }
+         to {
+         visibility: visible
+         }
+         }
+         @keyframes -amp-start {
+         from {
+         visibility: hidden
+         }
+         to {
+         visibility: visible
+         }
+         }
+      </style>
+      <noscript>
+         <style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+      </noscript>
+      <script custom-element="amp-sidebar"
+         src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"
+         async=""></script>
+      <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+      <script custom-element="amp-list"
+         src="https://cdn.ampproject.org/v0/amp-list-0.1.js"
+         async=""></script>
+      <script custom-element="amp-bind"
+         src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"
+         async=""></script>
+      <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
+         rel="stylesheet">
+      <style amp-custom="">
+         /*! Bassplate | MIT License | http://github.com/basscss/bassplate */
+      </style>
+      <link rel="stylesheet"
+         type="text/css"
+         href="/css/page.css">
+   </head>
+   <body>
+      <!-- Start Navbar -->
+      <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 pt2 md-pt0">
+         <div role="button"
+            aria-label="open sidebar"
+            on="tap:header-sidebar.toggle"
+            tabindex="0"
+            class="ampstart-navbar-trigger  pr2 absolute top-0 pr0 mr2 mt2">
+            <svg xmlns="http://www.w3.org/2000/svg"
+               width="24"
+               height="24"
+               viewBox="0 0 24 24"
+               class="block">
+               <path fill="none" d="M0 0h24v24H0z"></path>
+               <path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+            </svg>
+         </div>
+         <a href="/index.html"
+            class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0 site-logo">
+         LAXMAN <span>FITNESS</span>
+         </a>
+         <!--
+            TODO: currently "fixeditems" is an array, therefore it's not possible to
+            add additional classes to it. An alternative solution would be to make it
+            an oject, with a "classes" and "items" sub-properties:
+            "fixeditems": {
+             "classes": "col-3",
+             "items": [{
+               "link": {
+                 "url": "mailto:contact@lune.com",
+                 "text": "—contact@lune.com",
+                 "classes": "xs-small sm-hide h6 bold"
+               }
+             }]
+            }
+            -->
+      </header>
+      <!-- Start Sidebar -->
+      <amp-sidebar id="header-sidebar"
+         class="ampstart-sidebar px3  md-flex flex-column justify-content items-center justify-center"
+         layout="nodisplay">
+         <div class="flex justify-start items-center ampstart-sidebar-header">
+            <div role="button"
+               aria-label="close sidebar"
+               on="tap:header-sidebar.toggle"
+               tabindex="0"
+               class="ampstart-navbar-trigger items-start">✕</div>
+         </div>
+         <nav class="ampstart-sidebar-nav ampstart-nav">
+            <ul class="list-reset m0 p0 ampstart-label">
+               <li>
+                  <a href="/index.html"
+                     class="text-decoration-none block 22 site-logo site-logo-side">
+                  LAXMAN <span>FITNESS</span>
+                  </a>
+               </li>
+               <li class="ampstart-nav-item "><a class="ampstart-nav-link"
+                  href="product-listing.html">Products</a></li>
+               <li class="ampstart-nav-item "><a class="ampstart-nav-link"
+                  href="contact.html">Contact us</a></li>
+            </ul>
+         </nav>
+         <h3 class="h7 block pt3">visit us</h3>
+         <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+            <li>
+               <a href="#"
+                  target="_blank"
+                  class="inline-block p1"
+                  aria-label="Link to AMP HTML Facebook">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.6" viewBox="0 0 56 55">
+                     <title>Facebook</title>
+                     <path d="M47.5 43c0 1.2-.9 2.1-2.1 2.1h-10V30h5.1l.8-5.9h-5.9v-3.7c0-1.7.5-2.9 3-2.9h3.1v-5.3c-.6 0-2.4-.2-4.6-.2-4.5 0-7.5 2.7-7.5 7.8v4.3h-5.1V30h5.1v15.1H10.7c-1.2 0-2.2-.9-2.2-2.1V8.3c0-1.2 1-2.2 2.2-2.2h34.7c1.2 0 2.1 1 2.1 2.2V43" class="ampstart-icon ampstart-icon-fb"></path>
+                  </svg>
+               </a>
+            </li>
+            <li>
+               <a href="#"
+                  target="_blank"
+                  class="inline-block p1"
+                  aria-label="Link to AMP HTML Instagram">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 54 54">
+                     <title>instagram</title>
+                     <path d="M27.2 6.1c-5.1 0-5.8 0-7.8.1s-3.4.4-4.6.9c-1.2.5-2.3 1.1-3.3 2.2-1.1 1-1.7 2.1-2.2 3.3-.5 1.2-.8 2.6-.9 4.6-.1 2-.1 2.7-.1 7.8s0 5.8.1 7.8.4 3.4.9 4.6c.5 1.2 1.1 2.3 2.2 3.3 1 1.1 2.1 1.7 3.3 2.2 1.2.5 2.6.8 4.6.9 2 .1 2.7.1 7.8.1s5.8 0 7.8-.1 3.4-.4 4.6-.9c1.2-.5 2.3-1.1 3.3-2.2 1.1-1 1.7-2.1 2.2-3.3.5-1.2.8-2.6.9-4.6.1-2 .1-2.7.1-7.8s0-5.8-.1-7.8-.4-3.4-.9-4.6c-.5-1.2-1.1-2.3-2.2-3.3-1-1.1-2.1-1.7-3.3-2.2-1.2-.5-2.6-.8-4.6-.9-2-.1-2.7-.1-7.8-.1zm0 3.4c5 0 5.6 0 7.6.1 1.9.1 2.9.4 3.5.7.9.3 1.6.7 2.2 1.4.7.6 1.1 1.3 1.4 2.2.3.6.6 1.6.7 3.5.1 2 .1 2.6.1 7.6s0 5.6-.1 7.6c-.1 1.9-.4 2.9-.7 3.5-.3.9-.7 1.6-1.4 2.2-.7.7-1.3 1.1-2.2 1.4-.6.3-1.7.6-3.5.7-2 .1-2.6.1-7.6.1-5.1 0-5.7 0-7.7-.1-1.8-.1-2.9-.4-3.5-.7-.9-.3-1.5-.7-2.2-1.4-.7-.7-1.1-1.3-1.4-2.2-.3-.6-.6-1.7-.7-3.5 0-2-.1-2.6-.1-7.6 0-5.1.1-5.7.1-7.7.1-1.8.4-2.8.7-3.5.3-.9.7-1.5 1.4-2.2.7-.6 1.3-1.1 2.2-1.4.6-.3 1.6-.6 3.5-.7h7.7zm0 5.8c-5.4 0-9.7 4.3-9.7 9.7 0 5.4 4.3 9.7 9.7 9.7 5.4 0 9.7-4.3 9.7-9.7 0-5.4-4.3-9.7-9.7-9.7zm0 16c-3.5 0-6.3-2.8-6.3-6.3s2.8-6.3 6.3-6.3 6.3 2.8 6.3 6.3-2.8 6.3-6.3 6.3zm12.4-16.4c0 1.3-1.1 2.3-2.3 2.3-1.3 0-2.3-1-2.3-2.3 0-1.2 1-2.3 2.3-2.3 1.2 0 2.3 1.1 2.3 2.3z" class="ampstart-icon ampstart-icon-instagram"></path>
+                  </svg>
+               </a>
+            </li>
+            <li>
+               <a href="#"
+                  target="_blank"
+                  class="inline-block p1"
+                  aria-label="Link to AMP HTML Twitter">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22.2" viewBox="0 0 53 49">
+                     <title>Twitter</title>
+                     <path d="M45 6.9c-1.6 1-3.3 1.6-5.2 2-1.5-1.6-3.6-2.6-5.9-2.6-4.5 0-8.2 3.7-8.2 8.3 0 .6.1 1.3.2 1.9-6.8-.4-12.8-3.7-16.8-8.7C8.4 9 8 10.5 8 12c0 2.8 1.4 5.4 3.6 6.9-1.3-.1-2.6-.5-3.7-1.1v.1c0 4 2.8 7.4 6.6 8.1-.7.2-1.5.3-2.2.3-.5 0-1 0-1.5-.1 1 3.3 4 5.7 7.6 5.7-2.8 2.2-6.3 3.6-10.2 3.6-.6 0-1.3-.1-1.9-.1 3.6 2.3 7.9 3.7 12.5 3.7 15.1 0 23.3-12.6 23.3-23.6 0-.3 0-.7-.1-1 1.6-1.2 3-2.7 4.1-4.3-1.4.6-3 1.1-4.7 1.3 1.7-1 3-2.7 3.6-4.6" class="ampstart-icon ampstart-icon-twitter"></path>
+                  </svg>
+               </a>
+            </li>
+         </ul>
+      </amp-sidebar>
+      <!-- End Sidebar -->
+      <!-- End Navbar -->
+      <main id="content"
+         role="main"
+         class="main laxfit-listing">
+         <amp-img class="laxfit-listing-banner xs-hide sm-hide"
+            src="/img/category-landing-wide.jpg"
+            width="2560"
+            height="400"
+            layout="responsive"
+            alt="Product listing"
+            noloading="">
+            <div placeholder=""
+               class="laxfit-loader"></div>
+         </amp-img>
+         <section class="laxfit-listing-content mx-auto flex flex-wrap pb4">
+            <div class="col-12 md-col-12 pt2 pb3 md-px4 md-pt1 md-pb7">
+               <div class="md-laxfit-header relative md-flex flex-wrap items-center md-mx0 md-mb2">
+                  <h1 class="h3 mb2 md-mt2 md-mb2 md-ml0 flex-auto px2">Products</h1>
+               </div>
+               <amp-selector class="tabs-with-flex"
+                  role="tablist"
+                  keyboard-select-mode="focus">
+                  <div id="tab1"
+                     role="tab"
+                     class="h7 mb2 md-mt2 md-mb2 md-ml0 flex-auto px2"
+                     aria-controls="tabpanel1"
+                     option
+                     selected>TREADMILLS</div>
+                  <div id="tabpanel1"
+                     role="tabpanel"
+                     aria-labelledby="tab1">
+                     <amp-list class="mx1 md-mxn1"
+                        src="/api/treadmills.json"
+                        height="1000"
+                        width="300"
+                        layout="responsive">
+                        <template type="amp-mustache">
+                           <a href="products/{{category}}/{{id}}.html" target="_self" class="laxfit-listing-product text-decoration-none inline-block col-6 md-col-4 lg-col-3 px1 mb2 md-mb4 relative">
+                              <div class="flex flex-column justify-between">
+                                 <div>
+                                    <amp-img class="laxfit-listing-product-image mb2" src="{{image}}" width="340" height="340" layout="responsive" alt="{{ name }}" noloading="">
+                                       <div placeholder="" class="laxfit-loader"></div>
+                                    </amp-img>
+                                    <h2 class="laxfit-listing-product-name h7">{{ name }}</h2>
+                                    {{ description }}
+                                 </div>
+                                 <div class="h6 mt1">&#8377;{{ price }}</div>
+                              </div>
+                           </a>
+                        </template>
+                     </amp-list>
+                  </div>
+                  <div id="tab2"
+                     role="tab"
+                     class="h7 mb2 md-mt2 md-mb2 md-ml0 flex-auto px2"
+                     aria-controls="tabpanel2"
+                     option>Exercise Bikes</div>
+                  <div id="tabpanel2"
+                     role="tabpanel"
+                     aria-labelledby="tab2">
+                     <amp-list class="mx1 md-mxn1"
+                        src="/api/exerciseBikes.json"
+                        height="1000"
+                        width="300"
+                        layout="responsive">
+                        <template type="amp-mustache">
+                           <a href="products/{{category}}/{{id}}.html" target="_self" class="laxfit-listing-product text-decoration-none inline-block col-6 md-col-4 lg-col-3 px1 mb2 md-mb4 relative">
+                              <div class="flex flex-column justify-between">
+                                 <div>
+                                    <amp-img class="laxfit-listing-product-image mb2" src="{{image}}" width="340" height="340" layout="responsive" alt="{{ name }}" noloading="">
+                                       <div placeholder="" class="laxfit-loader"></div>
+                                    </amp-img>
+                                    <h2 class="laxfit-listing-product-name h7">{{ name }}</h2>
+                                    {{ description }}
+                                 </div>
+                                 <div class="h6 mt1">&#8377;{{ price }}</div>
+                              </div>
+                           </a>
+                        </template>
+                     </amp-list>
+                  </div>
+                  <div id="tab3"
+                     role="tab"
+                     aria-controls="tabpanel3"
+                     class="h7 mb2 md-mt2 md-mb2 md-ml0 flex-auto px2"
+                     option>Ellipticals</div>
+                  <div id="tabpanel3"
+                     role="tabpanel"
+                     aria-labelledby="tab3">
+                     <amp-list class="mx1 md-mxn1"
+                      src="/api/ellipticals.json"
+                      height="1000"
+                      width="300"
+                      layout="responsive">
+                      <template type="amp-mustache">
+                          <a href="products/{{category}}/{{id}}.html" target="_self" class="laxfit-listing-product text-decoration-none inline-block col-6 md-col-4 lg-col-3 px1 mb2 md-mb4 relative">
+                            <div class="flex flex-column justify-between">
+                                <div>
+                                  <amp-img class="laxfit-listing-product-image mb2" src="{{image}}" width="340" height="340" layout="responsive" alt="{{ name }}" noloading="">
+                                      <div placeholder="" class="laxfit-loader"></div>
+                                  </amp-img>
+                                  <h2 class="laxfit-listing-product-name h7">{{ name }}</h2>
+                                  {{ description }}
+                                </div>
+                                <div class="h6 mt1">&#8377;{{ price }}</div>
+                            </div>
+                          </a>
+                      </template>
+                    </amp-list>
+                  </div>
+                  <div id="tab4"
+                     role="tab"
+                     aria-controls="tabpanel4"
+                     class="h7 mb2 md-mt2 md-mb2 md-ml0 flex-auto px2"
+                     option>Multi-gym</div>
+                  <div id="tabpanel4"
+                     role="tabpanel"
+                     aria-labelledby="tab4">
+                     <amp-list class="mx1 md-mxn1"
+                      src="/api/multiGym.json"
+                      height="1000"
+                      width="300"
+                      layout="responsive">
+                      <template type="amp-mustache">
+                          <a href="products/{{category}}/{{id}}.html" target="_self" class="laxfit-listing-product text-decoration-none inline-block col-6 md-col-4 lg-col-3 px1 mb2 md-mb4 relative">
+                            <div class="flex flex-column justify-between">
+                                <div>
+                                  <amp-img class="laxfit-listing-product-image mb2" src="{{image}}" width="340" height="340" layout="responsive" alt="{{ name }}" noloading="">
+                                      <div placeholder="" class="laxfit-loader"></div>
+                                  </amp-img>
+                                  <h2 class="laxfit-listing-product-name h7">{{ name }}</h2>
+                                  {{ description }}
+                                </div>
+                                <div class="h6 mt1">&#8377;{{ price }}</div>
+                            </div>
+                          </a>
+                      </template>
+                    </amp-list>
+                  </div>
+               </amp-selector>
             </div>
-          </div>
-        </div>
-        <amp-list class="mx1 md-mxn1"
-          [src]="'api/' + products.category + '.json'"
-          src="/api/all.json"
-          height="1000"
-          width="300"
-          layout="responsive">
-          <template type="amp-mustache">
-          <a href="products/{{category}}/{{id}}.html" target="_self" class="laxfit-listing-product text-decoration-none inline-block col-6 md-col-4 lg-col-3 px1 mb2 md-mb4 relative">
-            <div class="flex flex-column justify-between">
-              <div>
-                <amp-img class="laxfit-listing-product-image mb2" src="{{image}}" width="340" height="340" layout="responsive" alt="{{ name }}" noloading=""><div placeholder="" class="laxfit-loader"></div></amp-img>
-                <h2 class="laxfit-listing-product-name h6">{{ name }}</h2>
-                {{ description }}
-              </div>
-              <div class="h6 mt1">&#8377;{{ price }}</div>
-            </div>
-          </a>
-        </template>
-        </amp-list>
-      </div>
-    </section>
-  </main>
-  <footer class="laxfit-footer center">
-    <nav class="mx-auto md-mb0 md-pt5 md-pb5">
-      <ul class="list-reset flex flex-wrap my0 md-pl4 md-pr4 md-mxn4">
-        <li class="pt3 md-pt0 md-px4 col-12 md-col-3 lg-col-2">
-                    <h2 class="laxfit-footer-header h7 pb2">About us</h2>
-          <ul class="list-reset pb3 md-mx0">
-            <li>
-              Authorized Dealer of Herculese Fitness
-            </li>
-          </ul>
-          <hr class="md-hide lg-hide col-12 mx0">
-        </li>
-        <li class="pt3 md-pt0 md-px4 col-12 md-col-3 lg-col-2">
-          <h2 class="laxfit-footer-header h7 pb2">Contact Us</h2>
-          <ul class="list-reset pb3 md-mx0">
-            <li>
-              <a class="text-decoration-none"
-                href="tel:+919388322422">93883224220</a>
-            </li>
-            <li>
-                <a class="text-decoration-none"
-                href="tel:+918921135750">8921135750</a>
-            </li>
-            <li>
-                <a class="text-decoration-none"
-                href="tel:+9104873252057">0487 3252057</a>
-            </li>
-            <li>
-              <a class="text-decoration-none"
-                href="mailto:laxmanfitness@gmail.com">laxmanfitness@gmail.com</a>
-            </li>
-          </ul>
-          <hr class="md-hide lg-hide col-12 mx0">
-        </li>
-        <li class="pt4 pb3 md-pt0 col-12 md-col-3">
-          <h3 class="h7 block pt3">visit us</h3>
-          <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
-            <li>
-              Opp.Valiyalukkal Temple,
-              P.O.Kanimangalam,
-              Thrissur-680027, Kerala, India
-            </li>
-            <li>
-              <a class="text-decoration-none"
-            href="google.com/maps/place/Laxman+Fitness/@10.491018,76.207795,15z/data=!4m5!3m4!1s0x0:0xbb480ceb9c11e5fc!8m2!3d10.4919041!4d76.212945?hl=en-GB">Google Map</a>
-            </li>
-            <li>
-              <a class="text-decoration-none"
-            href="google.com/maps/place/Laxman+Fitness/@10.491018,76.207795,15z/data=!4m5!3m4!1s0x0:0xbb480ceb9c11e5fc!8m2!3d10.4919041!4d76.212945?hl=en-GB">Google Map</a>
-            </li>
-          </ul>
-        </li>
-        <li class="flex-auto">
-          <a href="/index.html"
-          class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0 site-logo">
-            LAXMAN <span>FITNESS</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </footer>
-</body>
-
+         </section>
+      </main>
+      <footer class="laxfit-footer center">
+         <nav class="mx-auto md-mb0 md-pt5 md-pb5">
+            <ul class="list-reset flex flex-wrap my0 md-pl4 md-pr4 md-mxn4">
+               <li class="pt3 md-pt0 md-px4 col-12 md-col-3 lg-col-2">
+                  <h2 class="laxfit-footer-header h7 pb2">About us</h2>
+                  <ul class="list-reset pb3 md-mx0">
+                     <li>
+                        Authorized Dealer of Herculese Fitness
+                     </li>
+                  </ul>
+                  <hr class="md-hide lg-hide col-12 mx0">
+               </li>
+               <li class="pt3 md-pt0 md-px4 col-12 md-col-3 lg-col-2">
+                  <h2 class="laxfit-footer-header h7 pb2">Contact Us</h2>
+                  <ul class="list-reset pb3 md-mx0">
+                     <li>
+                        <a class="text-decoration-none"
+                           href="tel:+919388322422">93883224220</a>
+                     </li>
+                     <li>
+                        <a class="text-decoration-none"
+                           href="tel:+918921135750">8921135750</a>
+                     </li>
+                     <li>
+                        <a class="text-decoration-none"
+                           href="tel:+9104873252057">0487 3252057</a>
+                     </li>
+                     <li>
+                        <a class="text-decoration-none"
+                           href="mailto:laxmanfitness@gmail.com">laxmanfitness@gmail.com</a>
+                     </li>
+                  </ul>
+                  <hr class="md-hide lg-hide col-12 mx0">
+               </li>
+               <li class="pt4 pb3 md-pt0 col-12 md-col-3">
+                  <h3 class="h7 block pt3">visit us</h3>
+                  <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+                     <li>
+                        Opp.Valiyalukkal Temple,
+                        P.O.Kanimangalam,
+                        Thrissur-680027, Kerala, India
+                     </li>
+                     <li>
+                        <a class="text-decoration-none"
+                           href="google.com/maps/place/Laxman+Fitness/@10.491018,76.207795,15z/data=!4m5!3m4!1s0x0:0xbb480ceb9c11e5fc!8m2!3d10.4919041!4d76.212945?hl=en-GB">Google Map</a>
+                     </li>
+                     <li>
+                        <a class="text-decoration-none"
+                           href="google.com/maps/place/Laxman+Fitness/@10.491018,76.207795,15z/data=!4m5!3m4!1s0x0:0xbb480ceb9c11e5fc!8m2!3d10.4919041!4d76.212945?hl=en-GB">Google Map</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="flex-auto">
+                  <a href="/index.html"
+                     class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0 site-logo">
+                  LAXMAN <span>FITNESS</span>
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </footer>
+   </body>
 </html>
