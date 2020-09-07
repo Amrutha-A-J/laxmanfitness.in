@@ -1434,10 +1434,6 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: .06rem
 }
 
-a,a:active,a:visited {
-  color: inherit
-}
-
 .ampstart-btn {
   font-family: inherit;
   font-weight: inherit;
@@ -3134,7 +3130,7 @@ dd:after {
 }
 
 .ampstart-btn {
-  border-color: #222;
+  border-color: #c3423e;
   display: inline-block;
   font-size: .8rem;
   font-family: Open Sans Condensed,sans-serif;
@@ -3145,7 +3141,7 @@ dd:after {
 
 .amp-mode-mouse .ampstart-btn:hover,.ampstart-btn-secondary {
   background-color: #fff;
-  color: #222
+  color: #c3423e
 }
 
 .amp-mode-mouse .ampstart-btn-secondary:hover {
@@ -3258,7 +3254,7 @@ amp-selector [option][selected] {
 }
 
 .ampstart-headerbar .ampstart-navbar-trigger {
-  color: #222;
+  color: #c3423e;
   font-size: 1.38rem;
   padding-right: 0
 }
@@ -3376,6 +3372,7 @@ amp-selector [option][selected] {
 }
 
 .ampstart-nav-link {
+  color: #000;
   font-family: Open Sans Condensed,sans-serif;
   font-size: 1.75rem;
   font-weight: 700;
@@ -3455,6 +3452,7 @@ amp-selector [option][selected] {
 }
 
 .laxfit-hero-content-body {
+  color: #000;
   padding: 1rem 1rem 1.5rem;
   font-family: Cardo,sans-serif;
   width: 100%;
@@ -3463,6 +3461,7 @@ amp-selector [option][selected] {
 }
 
 .laxfit-hero-content-title {
+  color: #c3423e;
   font-weight: 700
 }
 
@@ -3485,6 +3484,7 @@ amp-selector [option][selected] {
   .laxfit-hero-content-body {
     font-size: 1rem;
     margin-bottom: 2rem;
+    color: #fff;
     background-color: rgba(0,0,0,0.5);
     margin-left: 0;
     padding-left: 2rem
@@ -3618,7 +3618,8 @@ amp-selector [option][selected] {
 }
 
 .laxfit-listing-product,.laxfit-listing-product>div {
-  min-height: 275px
+  min-height: 275px;
+  color: #000;
 }
 
 .laxfit-listing-product-image {
@@ -3634,6 +3635,10 @@ amp-selector [option][selected] {
   color: #fff;
     line-height: 20px;
     font-size: 13px;
+}
+
+.laxfit-footer a{
+  color: #fff;
 }
 
 .laxfit-footer .site-logo{
@@ -3721,7 +3726,7 @@ amp-selector [option][selected] {
 }
 
 .site-logo {
-  color: #000;
+  color: #c3423e;
   font-family: Open Sans Condensed,sans-serif;
   font-size: 30px;
 }
@@ -3807,4 +3812,8 @@ amp-selector.tabpanels [role=tabpanel][selected] {
 .embedded-map {
   height: 250px;
   margin: 0 5px;
+}
+
+.side-bar-contact a {
+  color: #000;
 }
