@@ -3630,7 +3630,15 @@ amp-selector [option][selected] {
 }
 
 .laxfit-footer {
-  background-color: #222
+  background-color: #222;
+  color: #fff;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.laxfit-footer .site-logo{
+  color: #fff;
+  line-height: 40px;
 }
 
 .laxfit-footer h3 {
